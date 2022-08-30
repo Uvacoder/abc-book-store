@@ -11,6 +11,7 @@ function App() {
         Tech: Tailwind, React-router, react-toastify,
         daisyUI,react-spinner-loader, React Hook Form.
       </h4>
+      <h6>Please Check any dependency need to install</h6>
       <ToastContainer />;
     </div>
   );
