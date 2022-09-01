@@ -161,15 +161,15 @@
     ]
   },
   {
-    "title": "Spear",
-    "author": "Nicola Griffith",
-    "publication": "Master Publication",
-    "description": "Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.",
-    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250819321_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
-    "price": 2,
+    "title": "Notes on Your Sudden Disappearance: A Novel",
+    "author": "Alison Espach",
+    "publication": "Alison Publications",
+    "description": "For much of her life, Sally Holt has been mystified by the things her older sister, Kathy, seems to have been born knowing. Kathy has answers for all of Sally’s questions about life, about love, and about Billy Barnes, a rising senior and local basketball star who mans the concession stand at the town pool. The girls have been fascinated by Billy ever since he jumped off the roof in elementary school, but Billy has never shown much interest in them until the summer before Sally begins eighth grade. By then, their mutual infatuation with Billy is one of the few things the increasingly different sisters have in common.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250823144_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 17,
     "stock": 70,
     "discount": 30,
-    "rating": 5,
+    "rating": 4.5,
     "reviews": [
       {
         "name": "John Doe",
@@ -184,15 +184,38 @@
     ]
   },
   {
-    "title": "Spear",
-    "author": "Nicola Griffith",
+    "title": "Fear No Evil",
+    "author": "James Patterson",
     "publication": "Master Publication",
-    "description": "Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.",
-    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250819321_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
-    "price": 2,
-    "stock": 70,
-    "discount": 30,
-    "rating": 5,
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316499149_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Bloomsbury Girls: A Novel",
+    "author": "Natalie Jenner",
+    "publication": "Master Publication",
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250276698_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
     "reviews": [
       {
         "name": "John Doe",
