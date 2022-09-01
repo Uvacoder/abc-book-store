@@ -1,105 +1,232 @@
 [
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 8,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "Spear",
-      "author": "Nicola Griffith",
-      "publication": "Master Publication",
-      "description": "Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.",
-      "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250819321_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
-      "price": 2,
-      "stock": 70,
-      "discount": 30,
-      "rating": 5,
-      "reviews": [
-        {
-          "name": "John Doe",
-          "review": "This is a great book",
-          "rating": 5
-        },
-        {
-          "name": "Jane Doe",
-          "review": "This is a great book",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-      "title": "The Lost Book of Eleanor Dare",
-      "author": "Kimberly Brock",
-      "publication": "",
-      "description": "Book simple description",
-      "img": "",
-      "price": 2,
-      "stock": 30,
-      "discount": 30
-    },
-    {
-        "title": "The Lost Book of Eleanor Dare",
-        "author": "Kimberly Brock",
-        "publication": "",
-        "description": "Book simple description",
-        "img": "",
-        "price": 2,
-        "stock": 30,
-        "discount": 30
+  {
+    "title": "Spear",
+    "author": "Nicola Griffith",
+    "publication": "Master Publication",
+    "description": "Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250819321_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
+    "price": 2,
+    "stock": 70,
+    "discount": 30,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
       }
-  ]
+    ]
+  },
+  {
+    "title": "Billy Summers",
+    "author": "Stephen King",
+    "publication": "ASTOUNDING SCIENCE FICTION",
+    "description": "We truly believe that we could take a fish bowl, add pieces of paper each with an adjective, subject and verb and Stephen King would deliver the best, most fantastic story. Ever. Add a genre, too — he’ll work that in. We are THRILLED by this latest pairing by this country’s most formidable author.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982173616_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 15,
+    "stock": 50,
+    "discount": 20,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Resting Place",
+    "author": "Camilla Sten, Alexandra Fleming (Translator)",
+    "publication": "Peace Publications",
+    "description": "Crimson Peak meets The Sanatorium in The Resting Place, a heart-thumping, unforgettable novel of horror and suspense by international sensation Camilla Sten",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250249272_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price":15,
+    "stock": 40,
+    "discount": 25,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Yerba Buena: A Novel",
+    "author": "Nina LaCour",
+    "publication": "Lacour Publication",
+    "description": "Sara Foster runs away from home at sixteen, leaving behind the girl she once was, capable of trust and intimacy. Years later, in Los Angeles, she is a sought-after bartender, renowned as much for her brilliant cocktails as for the mystery that clings to her. Across the city, Emilie Dubois is in a holding pattern, yearning for the beauty and community her Creole grandparents cultivated but unable to commit.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250810465_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 25,
+    "stock": 200,
+    "discount": 10,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Woman, Eating",
+    "author": "Claire Kohda",
+    "publication": "Woman Publications",
+    "description": "A young, mixed-race vampire must find a way to balance her deep-seated desire to live amongst humans with her incessant hunger in this stunning debut novel from a writer-to-watch.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780063140882_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 13,
+    "stock": 60,
+    "discount": 40,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Golden Couple",
+    "author": "Greer Hendricks, Sarah Pekkanen",
+    "publication": "Hendricks Publication",
+    "description": "Wealthy Washington suburbanites Marissa and Matthew Bishop seem to have it all—until Marissa is unfaithful. Beneath their veneer of perfection is a relationship riven by work and a lack of intimacy. She wants to repair things for the sake of their eight-year-old son and because she loves her husband. Enter Avery Chambers.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250273208_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 18,
+    "stock": 90,
+    "discount": 20,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Sense and Second-Degree Murder",
+    "author": "Tirzah Price",
+    "publication": "Elizabeth Publications",
+    "description": "The next Jane Austen Murder Mystery is upon us, and even if you’ve never read Sense and Sensibility, this twist on a classic will keep you on the edge of your seat. When Elinor and Marianne’s father is murdered and leaves everything to their half-brother in his will, the two team up to solve the mystery of who killed their father. Perfect for fans of Jane Austen and murder mysteries, this next installment in the series is a fantastic exploration of what it means to be a woman in a man’s world.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062889836_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 25,
+    "stock": 80,
+    "discount": 30,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Notes on Your Sudden Disappearance: A Novel",
+    "author": "Alison Espach",
+    "publication": "Alison Publications",
+    "description": "For much of her life, Sally Holt has been mystified by the things her older sister, Kathy, seems to have been born knowing. Kathy has answers for all of Sally’s questions about life, about love, and about Billy Barnes, a rising senior and local basketball star who mans the concession stand at the town pool. The girls have been fascinated by Billy ever since he jumped off the roof in elementary school, but Billy has never shown much interest in them until the summer before Sally begins eighth grade. By then, their mutual infatuation with Billy is one of the few things the increasingly different sisters have in common.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250823144_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 17,
+    "stock": 70,
+    "discount": 30,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Fear No Evil",
+    "author": "James Patterson",
+    "publication": "Master Publication",
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316499149_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Bloomsbury Girls: A Novel",
+    "author": "Natalie Jenner",
+    "publication": "Master Publication",
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250276698_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      },
+      {
+        "name": "Mosh Hamedani",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  }
+]
