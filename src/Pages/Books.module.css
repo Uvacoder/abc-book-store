@@ -1,0 +1,19 @@
+.container {
+    width: 190px;
+}
+
+.bookCover {
+    height: 220px;
+}
+
+.bookInfo {}
+
+.click {
+    display: flex;
+    width: auto;
+    background: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: 3px solid brown;
+
+}
