@@ -12,12 +12,12 @@
     "reviews": [
       {
         "name": "John Doe",
-        "review": "This is a great book",
+        "review": "This is a great book.",
         "rating": 5
       },
       {
         "name": "Mosh Hamedani",
-        "review": "This is a great book",
+        "review": "I love this book.",
         "rating": 5
       }
     ]
@@ -35,12 +35,12 @@
     "reviews": [
       {
         "name": "John Doe",
-        "review": "This is a great book",
+        "review": "Such an heart touching book.",
         "rating": 5
       },
       {
         "name": "Mosh Hamedani",
-        "review": "This is a great book",
+        "review": "Loved this for amazing characters.",
         "rating": 5
       }
     ]
