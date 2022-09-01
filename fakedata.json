@@ -7,7 +7,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316451338_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 17.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "I'm Glad My Mom Died",
@@ -17,7 +25,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982185824_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 27.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "The Ink Black Heart (Cormoran Strike Series #6)",
@@ -27,7 +43,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316413039_p0_v7_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
     "price": 22.4,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "Belladonna (Barnes & Noble YA Book Club Edition)",
@@ -37,7 +61,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316526609_p0_v18_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 14.24,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "Other Birds (Barnes & Noble Book Club Edition)",
@@ -47,7 +79,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250286833_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 20.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "It Starts with Us: A Novel",
@@ -57,7 +97,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781668001226_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
     "price": 13.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "A Court of Silver Flames (B&N Exclusive Edition) (A Court of Thorns and Roses Series #4)",
@@ -67,7 +115,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781639730841_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 16.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "Carrie Soto Is Back: A Novel",
@@ -77,7 +133,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780593158685_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 23.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
   },
   {
     "title": "It Ends with Us",
@@ -87,7 +151,16 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781501110368_p0_v10_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
     "price": 12.99,
     "stock": 30,
-    "discount": "10"
+    "discount": "10",,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+
+    ] 
   },
   {
     "title": "Rolling Stone September 2022: Harry Styles",
@@ -97,6 +170,15 @@
     "imgUrl": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780594155225_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
     "price": 14.99,
     "stock": 30,
-    "discount": "8"
+    "discount": "8",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+
+    ] 
   }
 ]
