@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import'./SignUp.css'
+import { FiEyeOff } from 'react-icons/fi';
 
 const ModalSignUp = (props) => {
     const {setSignUpModal,signUpModal} =props;
@@ -62,46 +63,29 @@ const ModalSignUp = (props) => {
        {/* ............ 
             /////// Password  /////
        */}
-         <div className="relative group ease-in duration-300">
+        <div className="relative group ease-in duration-300">
            <label htmlFor="name" className='absolute text-center group-hover:top-[-5px] top-3 left-5 text-[14px] text-black'>Password</label>
-         <input  type="password" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50 placeholder-black " />
+         <input  type="password" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50" />
          </div>
+
 
        {/* ............ 
             /////// confirm Password  /////
        */}
          <div className="relative group ease-in duration-300">
-           <label htmlFor="name" className='absolute text-center group-hover:top-[-5px] top-3 left-5 text-[14px] text-black'>confirm Password</label>
-         <input  type="password" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50 placeholder-black " />
+           <label htmlFor="name" className='absolute text-center group-hover:top-[-5px] top-3 left-5 text-[14px] text-black'>confirm Password </label>
+         <input  type="password" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50  " />
+         
          </div>
 
-       {/* ............ 
-            /////// security -quiestion  /////
-       */}
-         <div className="relative group ease-in duration-300">
-           <label htmlFor="name" className='absolute text-center group-hover:top-[-5px] top-3 left-5 text-[14px] text-black'>Security Quiestion</label>
-         <input  type="select" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50 placeholder-black " />
-         
-         </div>
-       {/* ............ 
-            /////// security -Answer  /////
-       */}
-         <div className="relative group ease-in duration-300">
-           <label htmlFor="name" className='absolute text-center group-hover:top-[-5px] top-3 left-5 text-[14px] text-black'>Security Answer</label>
-         <input  type="text" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50 placeholder-black " />
-         
-         </div>
-   
-   
-         
-   
+     
             {/* ----- signIn-modal-submit-btn------ */}
         
             <button className='create-account-btn py-[.69rem] px-14 text-white hover:text-opacity-50'>Create an Acount</button>
             <Link className='hover:underline px-7 text=[12px]' to='/'> Cancle</Link>
           
           </form>
-          <hr  className='border border-3 border-gray-300'/>
+          <hr  className='border border-5 border-gray-300'/>
         
           <p className='text-[14px] mt-5 mb-6'>By signing in or creating an account you are agreeing to our <Link to='/' className='text-xs underline'>Terms of Use</Link> and our  <Link to='/' className='text-xs underline'>Privacy Policy</Link> </p>
        </div>
