@@ -1,10 +1,11 @@
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "./components/Header/Navbar";
 import Books from "./Pages/Books";
 
 function App() {
   return (
     <div className="h-screen bg-dark-blue bg-main bg-contain">
-      <h1>I have just made my repo</h1>
+      <Navbar></Navbar>
       <Books></Books>
     </div>
   );

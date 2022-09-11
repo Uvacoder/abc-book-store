@@ -5,7 +5,7 @@ const Books = () => {
     return (
         <div className={`${styles.container} w-64 bg-base-100 shadow-xl m-4`}>
             <div>
-                <figure><img className={styles.bookCover} src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                <figure><img className={styles.bookCover} src="" alt="Shoes" /></figure>
                 <div>
                     <button className={styles.click}>Click Me!</button>
                 </div>
