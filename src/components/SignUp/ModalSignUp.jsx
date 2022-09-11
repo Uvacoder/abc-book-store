@@ -15,13 +15,15 @@ const ModalSignUp = (props) => {
            <div className="text-right">
            <button onClick={()=>(setSignUpModal(false))}>X</button>
            </div>
-       <h2 className="text-[23px] font-semibold mb-5"> Create an Account</h2>
+       <h2 className="text-[23px] font-semibold mb-2"> Create an Account</h2>
+       <p className='text-gray-500 text-[14px] mb-7'>Fill in the fields below to create a Barnes and Noble.com account.
+        If you already have an account, please <Link to='/' className='underline text-xs'>Sign In</Link>  </p>
    
        {/* ............ 
             /////// signIn-modal-form/////
        */}
    
-          <form className="w-full space-y-5 mb-10">
+          <form className="w-full space-y-4 mb-7">
 
               {/* ............ 
             /////// First-Name  /////
@@ -95,16 +97,13 @@ const ModalSignUp = (props) => {
    
             {/* ----- signIn-modal-submit-btn------ */}
         
-        <div className="submit-btn w-full">
-        <button type='submit' className='secure-signIn-btn py-[.69rem] w-full text-white '>Secure Sign In</button>
-        </div>
-        
-        <div className="submit-btn w-full">
-        <button type='submit' className=' py-[.69rem] w-full text-black outline-1 border border-black hover:bg-slate-200'>Create an Account</button>
-        </div>
-   
+            <button className='create-account-btn py-[.69rem] px-14 text-white hover:text-opacity-50'>Create an Acount</button>
+            <Link className='hover:underline px-7 text=[12px]' to='/'> Cancle</Link>
+          
           </form>
-          <p className='text-[14px] text-center mb-12'>By signing in you are agreeing to our <Link to='/' className='text-xs underline'>Terms of Use</Link> and our  <Link to='/' className='text-xs underline'>Privacy Policy</Link> </p>
+          <hr  className='border border-3 border-gray-300'/>
+        
+          <p className='text-[14px] mt-5 mb-6'>By signing in or creating an account you are agreeing to our <Link to='/' className='text-xs underline'>Terms of Use</Link> and our  <Link to='/' className='text-xs underline'>Privacy Policy</Link> </p>
        </div>
        
         </div>
