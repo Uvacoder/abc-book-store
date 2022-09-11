@@ -4,7 +4,7 @@ import'./SignUp.css'
 // import { FiEyeOff } from 'react-icons/fi';
 
 const ModalSignUp = (props) => {
-    const {setSignUpModal,signUpModal} =props;
+    const {setSignUpModal} =props;
   return (
     <div>
         
