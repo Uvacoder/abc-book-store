@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import'./SignUp.css'
-import { FiEyeOff } from 'react-icons/fi';
+// import { FiEyeOff } from 'react-icons/fi';
 
 const ModalSignUp = (props) => {
     const {setSignUpModal,signUpModal} =props;
