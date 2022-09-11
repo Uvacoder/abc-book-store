@@ -1,0 +1,24 @@
+/* .signIn-form{
+    font-family: poy;
+} */
+
+.signIn-btn{
+    background:#254D3E;
+ 
+}
+.checkbox-text{
+    color: #254D3E!important;
+}
+input{
+    border-radius: 0!important;
+    
+}
+.secure-signIn-btn{
+    background-color: #254D3E!important;
+    transition: .4s;
+}
+.secure-signIn-btn:hover{
+    background-color: #fff!important;
+    color: black;
+    border: 1px solid black;
+}

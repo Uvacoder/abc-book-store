@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Leadership: Theory and Practice.",
+    "author": "Peter Guy Northouse",
+    "publication": "SAGE Publications, Inc",
+    "description": "Now with a new chapter on Inclusive Leadership Adopted in thousands of courses in 89 countries and translated into 15 different languages, this market-leading text successfully combines an academically robust account of the major theories and models of leadership with an accessible style and focus on how leadership theory can inform leadership practice. Peter G. Northouse uses a consistent structure for each chapter, allowing readers to easily compare and contrast different theories. Case studies and questionnaires provide students with practical examples and opportunities to deepen their understanding of their own leadership style.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/10/24/5f/10245fac3b5dbb11c4fecde16190b387.jpg",
+    "price": 60,
+    "stock": 30,
+    "discount": 5,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Mark Hilton",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "JavaScript: The Definitive Guide.",
+    "author": "David Flanagan",
+    "publication": "O'Reilly Media",
+    "description": "This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/aa/16/cf/aa16cfcab9f4b980b01675ec7ea75820.jpg",
+    "price": 40,
+    "stock": 23,
+    "discount": 4,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book for Programmers and web Developer",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Islamic Banking and Finance",
+    "author": "Brian Kettell",
+    "publication": "Wiley",
+    "description": "This detailed book illustrates how Islamic banking is consistent with the Sharia'a, a key element of which is the prohibition on collecting and paying interest. This central religious precept appears to rule out most aspects of modern finance but it does allow money to be used for trading tangible assets and business, which can then generate a profit. Brian Kettell's book looks at all aspects of Islamic banking, including chapters on its creation and evolution through to detailed discussions of the issues involved in the Sharia'a contracts of Murabaha, Mudaraba, Musharaka, Ijara, Istisna'a, and Salam. Islamic insurance (Takaful) is also covered.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/0d/8a/f3/0d8af339558ef3a7e6f3e1cd04344120.jpg",
+    "price": 35,
+    "stock": 25,
+    "discount": 10,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Alex Bite",
+        "review": "I've never read a book with so info of Islamic banking.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Talk English",
+    "author": "Ken Xiao",
+    "publication": "CreateSpace",
+    "description": "The Secret To Speak English Like A Native In 6 Months For Busy People, Learn Spoken English From The Success",
+    "img": "https://covers.zlibcdn2.com/covers299/books/16/c0/cb/16c0cb88f76eed94cfedd62732cf870d.jpg",
+    "price": 20,
+    "stock": 30,
+    "discount": 5,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Tailor Lara",
+        "review": "A great book for English Learners",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Economics Book",
+    "author": "DK, Niall Kishtainy, George Abbot",
+    "publication": "DK, Dorling Kindersley",
+    "description": "The Economics Book is the essential reference for students and anyone else with an interest in how economies work. Easy-to-follow graphics, succinct quotations, and thoroughly accessible text throw light on the applications of economics, making them relatable through everyday examples and concerns. Employing DK's trademark visual approach, The Economics Book takes a frequently confusing subject and makes sense of it, clearly highlighting both historically important and emerging ideas in this critical field of science.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/02/a9/e0/02a9e05e3f5c60243e9ed018eb99be2d.jpg",
+    "price": 28,
+    "stock": 33,
+    "discount": 6,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Theory Orey",
+        "review": "A great book for Economics student",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Math Book",
+    "author": "DK",
+    "publication": "Dorling Kindersley",
+    "description": "Math's infinite mysteries unfold in this paperback edition of the bestselling The Math Book. Beginning millions of years ago with ancient “ant odometers” and moving through time to our modern-day quest for new dimensions, prolific polymath Clifford Pickover covers 250 milestones in mathematical history.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/ad/37/4c/ad374cb5f722260aa880c18ede0b60a7.jpg",
+    "price": 22,
+    "stock": 30,
+    "discount": 4,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Ben Ten",
+        "review": "I've never read a book with so info Maths",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Geography of the World",
+    "author": "DK, Simon Adams",
+    "publication": "The Essential Family Guide to Geography and Culture. ",
+    "description": "Global diversity comes alive in DK's essential guide to our ever-changing world, full of fact-packed spreads and full-color photographs. A guide to countries and continents in today's rapidly changing world. More than 60 large-scale, three-dimensional maps, 900 superb photographs, and 500 detailed artworks, charts, and diagrams bring the countries of the world to life",
+    "img": "https://covers.zlibcdn2.com/covers299/books/68/51/72/685172f2f75fa2c755b0eb1048006a3f.jpg",
+    "price": 42,
+    "stock": 20,
+    "discount": 7,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Henry Json",
+        "review": "I've never read a book with so info Geography",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Timelines of Everything",
+    "author": "DK, Smithsonian",
+    "publication": "DK Publishing",
+    "description": "Explore an illustrated history of the world through more than 130 timelines for kids. From dinosaurs and Vikings to the history of cinema and espionage, discover incredible world history in this lavish collection of timelines.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/6d/d1/2b/6dd12b34780c0f742c98b30dfaeed397.jpg",
+    "price": 32,
+    "stock": 23,
+    "discount": 4,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Dave Gary",
+        "review": "This is a great Books",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Cooking for Friends",
+    "author": "Gordon Ramsay",
+    "publication": "Harper Collins",
+    "description": "In Cooking for Friends, award-winning chef, world-renowned restaurateur, bestselling author, and Hell’s Kitchen star Gordon Ramsey offers us more than 100 exceptional recipes from his own family table.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/0a/54/8c/0a548cea850c10b94876b4fdea7452de.jpg",
+    "price": 22,
+    "stock": 13,
+    "discount": 5,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Max Bite",
+        "review": "One of the best chef cooking Book.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "React and React Native",
+    "author": "Adam Boduch, Roy Derks, Mikhail Sakhniuk",
+    "publication": "Packt Publishing",
+    "description": "React and React Native is the best build cross-platform JavaScript applications with native power for the web, desktop, and mobile",
+    "img": "https://covers.zlibcdn2.com/covers299/books/14/2c/d8/142cd829a8032cb96bd8f4de267c8aa4.jpg",
+    "price": 20,
+    "stock": 22,
+    "discount": 4,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Ryan Dale",
+        "review": "One of the best React and React Native programmers Books",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Cryptography Algorithms",
+    "author": "Massimo Bertaccini",
+    "publication": "Packt Publishing",
+    "description": "Cryptography Algorithms is designed to help you get up and running with modern cryptography algorithms. You'll not only explore old and modern security practices but also discover practical examples of implementing them effectively. The book starts with an overview of cryptography, exploring key concepts including popular classical symmetric and asymmetric algorithms, protocol standards, and more. You'll also cover everything from building crypto codes to breaking them.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/25/17/fd/2517fd2fb0b88150e4e50e51444e9502.jpg",
+    "price": 24,
+    "stock": 15,
+    "discount": 4,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Lamba Dale",
+        "review": "This is a great Book of Cryptography Algorithms",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Data Visualization with Python and JavaScript",
+    "author": "Kyran Dale",
+    "publication": "O'Reilly Media, Inc.",
+    "description": "In this practical book, author Kyran Dale shows data scientists and analysts—as well as Python and JavaScript developers—how to create the ideal toolchain for the job. By providing engaging examples and stressing hard-earned best practices, this guide teaches you how to leverage the power of best-of-breed Python and JavaScript libraries.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/88/7b/ac/887bacd934ae056bdc247a40a8d232d5.png",
+    "price": 25,
+    "stock": 15,
+    "discount": 4,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Mr. Vishwas",
+        "review": "Data Visualization with Python and JavaScript is a great for web developer.",
+        "rating": 4
+      }
+    ]
+  }
+]
