@@ -11,6 +11,10 @@ const SignUp = () => {
         
     <h1>Hello Merge conflict</h1>
    
+    <h2>hfodhfi</h2>
+    <h2>hfodhfi</h2>
+    <h2>hfodhfi</h2>
+
    <button onClick={()=>(setSignUpModal(true))}  className="py-[5px] underline text-black mx-auto">Create new Account</button>
   {
     signUpModal &&  <ModalSignUp signUpModal={signUpModal} setSignUpModal={setSignUpModal}></ModalSignUp>
