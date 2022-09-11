@@ -1,11 +1,11 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Login from "./components/Login";
-import SignUp from "./components/SignUp/SignUp";
+import Login from "./Pages/Register/Login";
+import SignUp from "./Pages/Register/SignUp";
 
 function App() {
   return (
-    <div className="h-screen">
+    <div>
       <Login></Login>
       <SignUp></SignUp>
       {/* bg-dark-blue bg-main bg-contain */}
