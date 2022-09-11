@@ -25,14 +25,16 @@ const SignInModal = (props) => {
     {/* ----- signIn-modal-form------ */}
 
        <form className="w-full space-y-5 mb-10">
+        
+
       <div className="relative group ease-in duration-300">
         <label htmlFor="email" className='absolute text-center group-hover:top-[-6px] top-3 left-5 text-[14px] text-black'> Email Address</label>
-      <input  type="email" class=" input w-full input-bordered focus:outline-none bg-gray-50 placeholder-black " />
+      <input  type="email" class=" input w-full input-bordered focus:border focus:border-black focus:outline-none bg-gray-50 placeholder-black " />
       </div>
 
         <div className="relative group ease-in duration-300">
         <label htmlFor="email" className='absolute text-center group-hover:top-[-6px] top-3 left-5 text-[14px] text-black'> Password</label>
-      <input  type="password" placeholder="Password" class=" input w-full input-bordered focus:outline-none bg-gray-50 placeholder-black " />
+      <input  type="password" placeholder="Password" class=" input w-full input-bordered focus:outline-none focus:border focus:border-black bg-gray-50 placeholder-black " />
       </div>
 
 
