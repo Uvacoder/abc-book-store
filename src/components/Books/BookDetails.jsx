@@ -45,7 +45,9 @@ const BookDetails = () => {
                     <h1>4.3(6)</h1>
 
                 </div>
+                <div className="border border-gray-50">
                 <hr />
+                </div>
 
             </div>
 
