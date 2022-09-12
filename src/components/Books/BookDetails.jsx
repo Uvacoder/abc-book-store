@@ -2,13 +2,15 @@ import React from 'react'
 import './Book.css'
 import img from '../../assets/images/book.jpg'
 import { FaHeart } from 'react-icons/fa';
+import { AiFillStar } from 'react-icons/ai';
+import { BsStarHalf } from 'react-icons/bs';
 
 const BookDetails = () => {
   return (
     <>
 
     <div className="container-width my-16 mx-auto ">
-        <div className="grid grid-cols-2 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto">
 
             {/* ....///...... img-section  ....... .....//// */}
 
@@ -27,10 +29,23 @@ const BookDetails = () => {
               </div>
             </div>
 
-             {/* ....///...... img-section  ....... .....//// */}
+             {/* ....///...... content-section  ....... .....//// */}
 
             <div className="Details-content flex-2/4">
-                <h1>Add to Wishlist Lucy by the Sea: A Novel</h1>
+                <h1 className='text-2xl font-semibold mb-1'>Lucy by the Sea: A Novel</h1>
+                <p className=''>By <span className='hover:underline text-sm'>Elizabeth Strout</span></p>
+                <div className="ratings flex mt-3 items-center space-x-3">
+                    <div className="icon flex text-pink-400">
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <BsStarHalf></BsStarHalf>
+                    </div>
+                    <h1>4.3(6)</h1>
+
+                </div>
+                <hr />
 
             </div>
 
