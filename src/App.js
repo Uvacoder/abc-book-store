@@ -1,13 +1,15 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Login from "./components/Login";
+import BookDetails from "./components/Books/BookDetails.jsx";
+import Login from "./components/SignIn/Login.jsx";
 import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   return (
     <div className="h-screen">
-      <Login></Login>
-      <SignUp></SignUp>
+      <BookDetails></BookDetails>
+    {/* <Login></Login>
+      <SignUp></SignUp> */}
       {/* bg-dark-blue bg-main bg-contain */}
       {/* <h1 className="text-5xl text-center p-4 font-mono font-black text-white">
         React Initial Project set-up
