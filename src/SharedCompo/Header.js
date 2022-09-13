@@ -1,6 +1,7 @@
 import React from "react";
 import "./Style/custom.css";
-import Logo from "../Assets/Images/logo.png";
+import Logo from "../assets/images/logo.png";
+
 import { FaShoppingCart } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 

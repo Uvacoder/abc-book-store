@@ -17,12 +17,8 @@ const priceRange=[
   { name:'Audio-cd',price:'40.00$'}
 ]
 
-
-
-
   return (
     <>
-
     <div className="container-width my-16 mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto">
 
