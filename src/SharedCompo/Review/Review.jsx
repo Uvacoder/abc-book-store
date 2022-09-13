@@ -12,19 +12,11 @@ const Review = () => {
         fetch('review.json')
         .then(res=>res.json())
         .then(data=>setReviews(data))
-
      },[])
   return (
-
     <div className="">
         <h3 className='text-2xl font-semibold text-center my-8'>Our client review</h3>
-   
-
-
-
     <div className="max-w-4xl mx-auto my-32">
-
-
     <Carousel
   additionalTransfrom={0}
   arrows
@@ -79,8 +71,6 @@ const Review = () => {
   slidesToSlide={2}
   swipeable
 >
-
-
 {
     reviews.map(singleReview => {
         const {img,name,review}=singleReview;
@@ -101,26 +91,9 @@ const Review = () => {
         </div>
     })
 }
-
-
-
-
 </Carousel>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-       
-    </div>
+ </div>
   )
 }
-
 export default Review
