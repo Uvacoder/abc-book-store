@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const NavLinks = () => {
     const links = [{
@@ -75,23 +74,16 @@ const NavLinks = () => {
                         {link.submenu && (
                             <div>
                                 <div className='absolute top-15 hidden group-hover:block hover:block w-change-auto'>
-                                    {/* <div className='py-3'>
-                                        <div className='w-4 h-4 left-3 absolute mt-1 bg-white rotate-45'></div>
-                                    </div> */}
-                                    <div className='bg-white p-3.5 grid grid-cols-1 gap-3 rounded'>
-                                        {link.sublinks.map((singleSublink) => (
-                                            <div>
-                                                <h1 className='text-xs uppercase hover:text-green-500 '>{singleSublink.head}</h1>
-                                                {/* {singleSublink.sublink.map((slink) => (
-                                                    <li className='text-sm text-gray-600 my-2.5'>
-                                                        <Link to={"/"} className='hover:text-black'>{slink.name}</Link>
-                                                    </li>
-                                                ))} */}
-                                            </div>
-                                        ))}
-                                    </div>
+
+
+                                    {link.sublinks.map((singleSublink) => (
+
+                                        <h1 className='bg-white p-3.5 grid grid-cols-1 gap-3 rounded text-xs uppercase hover:text-green-500 text-left '>{singleSublink.head}</h1>
+
+                                    ))}
                                 </div>
                             </div>
+
                         )}
                     </div>
                 </div>

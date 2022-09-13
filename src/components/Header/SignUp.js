@@ -6,32 +6,23 @@ import { Link } from 'react-router-dom';
 const Navbar1 = () => {
     return (
         <div className='bg-white pt-6'>
-
-            <section className='flex justify-between'>
-                <div>
-
-                </div>
+            <section className='flex justify-end'>
                 <div className='flex'>
-                    {/* myprofile */}
+                    {/* myprofile /sign in / create account */}
                     <div className=' flex px-3 text-left md:cursor-pointer group'>
                         <div className=' flex'>
                             <CgProfile className='h-5 w-5'></CgProfile>
-                            <span className='text-sm px-2'>MY ACCOUNT</span>
-                            <div className='py-3'>
-
-                            </div>
+                            <span className='text-sm px-2 pb-2'>MY ACCOUNT</span>
                         </div>
                         <div className='absolute top-12 hidden group-hover:block hover:block  z-10 w-40 h-22 p-4 border border-gray-500 text-center bg-white '>
-
                             <button className='absolute w-20 h-8 bg-green-700 font-semibold text-sm top-2 text-white left-10 '><Link to='#'>Sign In</Link></button><br />
                             <Link className='underline underline-offset-1 pt-4' to='#'>Create Account</Link>
-
                         </div>
                     </div>
-                    {/* wishlist  */}
+                    {/* wishlist /cart  */}
                     <div className='flex items-center justify-center font-[poppins] mr-8 cursor-pointer'>
-                        <MdOutlineFavoriteBorder className='h-5 w-5'></MdOutlineFavoriteBorder>
-                        <span className='text-sm px-2'>WISHLIST</span>
+                        <MdOutlineFavoriteBorder className='h-7 w-5 pb-2'></MdOutlineFavoriteBorder>
+                        <span className='text-sm px-2 pb-2'>WISHLIST</span>
                     </div>
                 </div>
             </section >

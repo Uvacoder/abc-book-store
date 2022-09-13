@@ -4,9 +4,8 @@ import Books from "./Pages/Books";
 
 function App() {
   return (
-    <div className="h-screen bg-dark-blue bg-main bg-contain">
+    <div className="h-screen bg-white bg-contain">
       <MainHeader></MainHeader>
-      <Books></Books>
     </div>
   );
 }
