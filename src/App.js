@@ -5,7 +5,7 @@ import Header from "./SharedCompo/Header";
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <ToastContainer />
     </div>
   );
