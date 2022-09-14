@@ -1,18 +1,14 @@
-// import { ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-import Header from "./SharedCompo/Header";
-import BookDetails  from './components/Books/BookDetails'
-import Review from './SharedCompo/Review/Review';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Home from "./Pages/Home/Home";
+import MainHeader from "./SharedCompo/Header/MainHeader";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <BookDetails/>
-      <Review/> 
-    
-      {/* <ToastContainer /> */}
-      
+      <MainHeader/>
+      <Home/>
+      <ToastContainer />
     </div>
   );
 }
