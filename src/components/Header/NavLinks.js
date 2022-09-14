@@ -74,16 +74,11 @@ const NavLinks = () => {
                         {link.submenu && (
                             <div>
                                 <div className='absolute top-15 hidden group-hover:block hover:block w-change-auto'>
-
-
                                     {link.sublinks.map((singleSublink) => (
-
                                         <h1 className='bg-white p-3.5 grid grid-cols-1 gap-3 rounded text-xs uppercase hover:text-green-500 text-left '>{singleSublink.head}</h1>
-
                                     ))}
                                 </div>
                             </div>
-
                         )}
                     </div>
                 </div>

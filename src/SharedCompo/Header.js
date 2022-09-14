@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/custom.css";
-import Logo from "../Assets/Images/logo.png";
+// import Logo from "../Assets/Images/logo.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 
@@ -9,16 +9,16 @@ const Header = () => {
     <div>
       <div className="bg-[#3e5962]">
         <div className="w-3/5 my-auto mx-auto">
-        <marquee className="p-2 font-bold text-[#fff]" behavior="scroll" direction="left"> BUY 1, GET 1 50% OFF BOOKS FOR ALL AGES</marquee>
-      </div>
+          <marquee className="p-2 font-bold text-[#fff]" behavior="scroll" direction="left"> BUY 1, GET 1 50% OFF BOOKS FOR ALL AGES</marquee>
+        </div>
       </div>
       <div className="flex">
         <div className="mx-auto my-auto w-4/12 flex">
-          <img
+          {/* <img
             className="m-2 mr-4 max-h-16 w-auto hover:border-b-green-500 duration-200"
             src={Logo}
             alt="Logo"
-          />
+          /> */}
           <h1 className="text-2xl my-auto">The House of Books</h1>
         </div>
         <div className="w-1/2 flex mx-auto my-auto">
