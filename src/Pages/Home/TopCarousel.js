@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import {carouselData} from '../../ConstantData/carouselData'
+// import "react-multi-carousel/lib/styles.css";
+import { carouselData } from '../../ConstantData/carouselData'
 
 const TopCarousel = () => {
   const responsive = {
