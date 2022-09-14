@@ -1,10 +1,10 @@
 import React from 'react';
+import TopCarousel from './TopCarousel';
 
 const Home = () => {
     return (
         <div>
-            <h1>The House Of Books</h1>
-          
+            <TopCarousel/>
         </div>
     );
 };
