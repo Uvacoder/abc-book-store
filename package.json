@@ -16,7 +16,11 @@
     "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.2.1",
     "react-marquee-slider": "^1.1.5",
+<<<<<<< HEAD
     "react-query": "^3.39.2",
+=======
+    "react-multi-carousel": "^2.8.2",
+>>>>>>> c900d46895ad3ee02e4909142481b63d2ce22eb1
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.0.8",
