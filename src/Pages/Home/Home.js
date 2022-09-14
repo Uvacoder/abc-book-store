@@ -1,11 +1,12 @@
 import React from 'react';
-import TopCarousel from './TopCarousel';
+import Navbar from '../../components/Header/Navbar';
+import Books from '../Books';
 
 const Home = () => {
     return (
-        <div>
-            <TopCarousel/>
-        </div>
+        <Navbar>
+            <Books></Books>
+        </Navbar>
     );
 };
 

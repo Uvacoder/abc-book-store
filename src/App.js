@@ -6,7 +6,7 @@ import Header from "./SharedCompo/Header/Header";
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Home/>
       <ToastContainer />
     </div>
