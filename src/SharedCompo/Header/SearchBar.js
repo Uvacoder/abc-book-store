@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png'
+import logo from '../../Assets/Images/logo.png'
 import { FaShoppingCart } from 'react-icons/fa'
 import { AiOutlineSearch } from 'react-icons/ai';
 const Navbar = () => {
@@ -21,18 +21,15 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
-
                 {/* Cart button  */}
                 <div className="absolute right-20 md:block hidden">
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className='cursor-pointer'>
                             <div className="indicator">
-                                <FaShoppingCart className="h-8 w-7 text-[#a39e9ee7]" />
-                                <span className="badge badge-sm indicator-item bg-gray-400">{ }</span>
+                                <FaShoppingCart className="h-8 w-7 text-[#514d4df5]" />
+                                <span className="badge badge-error indicator-item">{4}</span>
                             </div>
                         </label>
-                        <div tabIndex={0} className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
-                        </div>
                     </div>
                 </div>
             </div >

@@ -1,13 +1,12 @@
-import React from 'react';
-import Navbar from '../../components/Header/Navbar';
-import Books from '../Books';
+import React from "react";
+import TopCarousel from "./TopCarousel";
 
 const Home = () => {
-    return (
-        <Navbar>
-            <Books></Books>
-        </Navbar>
-    );
+  return (
+    <div>
+      <TopCarousel />
+    </div>
+  );
 };
 
 export default Home;

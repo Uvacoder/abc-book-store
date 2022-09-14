@@ -13,16 +13,10 @@ const Navbar2 = () => {
                     </div>
                 </div>
                 <ul className='md:flex hidden items-center gap-8 font-[poppins] pb-1 '>
-                    <li>
-                        <Link to="#" className='inline-block'> Books</Link>
-                    </li>
                     <NavLinks />
                 </ul>
                 {/* for mobile  */}
                 <ul className={`md:hidden bg-white absolute bottom-0 w-full h-full font-[poppins] py-24 pl-4 duration-500 ${open ? "left-0" : "left-[-100%]"}`}>
-                    <li>
-                        <Link to="#" className='inline-block'> Books</Link>
-                    </li>
                     <NavLinks />
                 </ul>
             </div>
