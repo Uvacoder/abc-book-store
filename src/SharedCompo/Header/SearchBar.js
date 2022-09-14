@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/Images/logo.png";
+import logo from "../../assets/images/logo.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
 const SearchBar = () => {

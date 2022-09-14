@@ -18,6 +18,7 @@ const Review = () => {
         <h3 className='text-2xl font-semibold text-center my-8'>Our client review</h3>
     <div className="max-w-4xl mx-auto my-32">
     <Carousel
+    
   additionalTransfrom={0}
   arrows
   autoPlay
