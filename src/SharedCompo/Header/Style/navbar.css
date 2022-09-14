@@ -1,0 +1,4 @@
+.search-input:focus{
+    outline: 0.14em solid #54575a;
+    border-radius: none;
+}
