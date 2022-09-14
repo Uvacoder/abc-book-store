@@ -1,13 +1,13 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Home from "./Pages/Home/Home";
-import MainHeader from "./SharedCompo/Header/MainHeader";
+import MainHeader from "./components/Header/MainHeader";
+// import Header from "./SharedCompo/Header";
 
 function App() {
   return (
     <div>
-      <MainHeader/>
-      <Home/>
+      <MainHeader />
+      {/* <Header /> */}
       <ToastContainer />
     </div>
   );

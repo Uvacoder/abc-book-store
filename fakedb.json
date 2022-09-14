@@ -1,172 +1,596 @@
 [
-    {
-        "title": "Cover Story: A Novel",
-        "author": "Susan Rigetti",
-        "publication": "HarperCollins Publishers",
-        "description": "After a rough year at NYU, aspiring writer Lora Ricci is thrilled to land a summer internship at ELLE magazine where she meets Cat Wolff, contributing editor and enigmatic daughter of a clean-energy mogul. Cat takes Lora under her wing, soliciting her help with side projects and encouraging her writing.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780063072053_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 28,
-        "stock": 30,
-        "discount": "50%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Al Amin Khan",
-                "review": "This is a great book"
-            }
-        ]
-    },
-    {
-        "title": "The Recovery Agent",
-        "author": "Janet Evanovich",
-        "publication": "Atria Books",
-        "description": "Lost something? Gabriela Rose knows how to get it back. As a recovery agent, she's hired by individuals and companies seeking lost treasures, stolen heirlooms, or missing assets of any kind. She's reliable, cool under pressure, and well trained in weapons of all types. But Gabriela's latest job isn't for some bamboozled billionaire, it's for her own family, whose home is going to be wiped off the map if they can't come up with a lot of money fast.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982187224_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 29,
-        "stock": 38,
-        "discount": "50%",
-        "rating": 4,
-        "reviews": [
-            {
-                "name": "John Doe",
-                "review": "Faboules"
-            }
-        ]
-    },
-    {
-        "title": "When You Are Mine",
-        "author": "Michael Robotham",
-        "publication": "Scribner",
-        "description": "Philomena McCarthy is an ambitious police officer with the elite Metropolitan Police in London. The estranged daughter of a notorious and powerful mobster, she has defied the odds to follow her dream. On a routine patrol, Philomena responds to a domestic violence call and rescues a bloodied young woman, Tempe Brown, who is the mistress of a decorated and intimidating London detective, Darren Goodall. The incident is hushed up by the police to protect Goodall's reputation, but Philomena has now made a dangerous enemy who is afraid of no one.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982166458_p0_v4_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 13,
-        "stock": 56,
-        "discount": "50%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Shahriyar",
-                "review": "What a trill!!"
-            }
-        ]
-    },
-    {
-        "title": "The Harbor",
-        "author": "Katrine Engberg",
-        "publication": "Gallery/Scout Press",
-        "description": "the police assume he's simply a runaway—a typically overlooked middle child doing what teenagers do all around the world. But his frantic family is certain that something terrible has happened. After all, what runaway would leave behind a note that reads: He looked around and saw the knife that had stabbed Basil Hallward. He had cleaned it many times, till there was no stain left upon it. It was bright and glistened. As it had killed the painter, so it would kill the painter's work, and all that that meant. It would kill the past, and when that was dead, he would be free.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982127633_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 28,
-        "stock": 45,
-        "discount": "50%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Nafiz",
-                "review": "This is Ok"
-            }
-        ]
-    },
-    {
-        "title": "A Thousand Steps",
-        "author": "T. Jefferson Parker",
-        "publication": "Tom Doherty Associates",
-        "description": "Matt is sixteen, broke, and never sure where his next meal is coming from. Mom's a stoner, his deadbeat dad is a no-show, his brother's fighting in Nam . . . and his big sister Jazz has just gone missing. The cops figure she's just another runaway hippie chick, enjoying a summer of love, but Matt doesn't believe it. Not after another missing girl turns up dead on the beach.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250793539_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 28,
-        "stock": 37,
-        "discount": "50%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Mishal",
-                "review": "One of the best Mystery book i have ever read"
-            }
-        ]
-    },
-    {
-        "title": "All Good People Here: A Novel",
-        "author": "Ashley Flowers",
-        "publication": "Random House Publishing Group",
-        "description": "You can't ever know for sure what happens behind closed doors. Everyone from Wakarusa, Indiana, remembers the infamous case of January Jacobs, who was discovered in a ditch hours after her family awoke to find her gone. Margot Davies was six at the time, the same age as January—and they were next-door neighbors. In the twenty years since, Margot has grown up, moved away, and become a big-city journalist. But she's always been haunted by the feeling that it could've been her. And the worst part is, January's killer has never been brought to justice.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780593496473_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 28,
-        "stock": 27,
-        "discount": "14%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Zabed",
-                "review": "Awesome, recommended"
-            }
-        ]
-    },
-    {
-        "title": "22 Seconds",
-        "author": "James Patterson, Maxine Paetro",
-        "publication": "Little, Brown and Company",
-        "description": "SFPD Sergeant Lindsay Boxer has guns on her mind. There's buzz of a last-ditch shipment of drugs and weapons crossing the Mexican border ahead of new restrictive gun laws. Before Lindsay can act, her top informant tips her to a case that hits disturbingly close to home.Former cops. Professional hits. All with the same warning scrawled on their bodies: You talk, you die",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316499378_p0_v4_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
-        "price": 29,
-        "stock": 32,
-        "discount": "36%",
-        "rating": 3,
-        "reviews": [
-            {
-                "name": "Iqbal",
-                "review": "Goofy story, Not my type"
-            }
-        ]
-    },
-    {
-        "title": "Girl, Forgotten",
-        "author": "Karin Slaughter",
-        "publication": "HarperCollins Publishers",
-        "description": "A small town hides a big secret… Who killed Emily Vaughn? A girl with a secret… Longbill Beach, 1982. Emily Vaughn gets ready for the prom. For an athlete, who is smart, pretty and well-liked, this night should be the highlight of her high school career. But Emily has a secret. And by the end of the evening, that secret will be silenced forever. An unsolved murder…",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062858115_p0_v6_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 29,
-        "stock": 15,
-        "discount": "30%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Enam",
-                "review": "What a twist!!"
-            }
-        ]
-    },
-    {
-        "title": "The Investigator",
-        "author": "John Sandford",
-        "publication": "Penguin Publishing Group",
-        "description": "By age twenty-four, Letty Davenport has seen more action and uncovered more secrets than many law enforcement professionals. Now a recent Stanford grad with a master's in economics, she's restless and bored in a desk job for U.S. Senator Colles. Letty's ready to quit, but her skills have impressed Colles, and he offers her a carrot: feet-on-the-ground investigative work, in conjunction with the Department of Homeland Security.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780593328682_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 29,
-        "stock": 45,
-        "discount": "31%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Tousif",
-                "review": "Nice , gotta read it again"
-            }
-        ]
-    },
-    {
-        "title": "City on fire",
-        "author": "Don Winslow",
-        "publication": "HarperCollins Publishers",
-        "description": "Two criminal empires together control all of New England.Until a beautiful woman comes between the Irish and the Italians, launching a war that will see them kill each other, destroy an alliance, and set a city on fire.Danny Ryan yearns for a more “legit” life and a place in the sun. But as the bloody conflict stacks body on body and brother turns against brother, Danny has to rise above himself. To save the friends he loves like family and the family he has sworn to protect, he becomes a leader, a ruthless strategist, and a master of a treacherous game in which the winners live and the losers die.",
-        "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062851192_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
-        "price": 29,
-        "stock": 30,
-        "discount": "30%",
-        "rating": 5,
-        "reviews": [
-            {
-                "name": "Finnn",
-                "review": "this book is awesome"
-            }
-        ]
-    }
+  {
+    "title": "Leadership: Theory and Practice.",
+    "author": "Peter Guy Northouse",
+    "publication": "SAGE Publications, Inc",
+    "description": "Now with a new chapter on Inclusive Leadership Adopted in thousands of courses in 89 countries and translated into 15 different languages, this market-leading text successfully combines an academically robust account of the major theories and models of leadership with an accessible style and focus on how leadership theory can inform leadership practice. Peter G. Northouse uses a consistent structure for each chapter, allowing readers to easily compare and contrast different theories. Case studies and questionnaires provide students with practical examples and opportunities to deepen their understanding of their own leadership style.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/10/24/5f/10245fac3b5dbb11c4fecde16190b387.jpg",
+    "price": 60,
+    "stock": 30,
+    "discount": 5,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Mark Hilton",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "JavaScript: The Definitive Guide.",
+    "author": "David Flanagan",
+    "publication": "O'Reilly Media",
+    "description": "This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/aa/16/cf/aa16cfcab9f4b980b01675ec7ea75820.jpg",
+    "price": 40,
+    "stock": 23,
+    "discount": 4,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book for Programmers and web Developer",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Islamic Banking and Finance",
+    "author": "Brian Kettell",
+    "publication": "Wiley",
+    "description": "This detailed book illustrates how Islamic banking is consistent with the Sharia'a, a key element of which is the prohibition on collecting and paying interest. This central religious precept appears to rule out most aspects of modern finance but it does allow money to be used for trading tangible assets and business, which can then generate a profit. Brian Kettell's book looks at all aspects of Islamic banking, including chapters on its creation and evolution through to detailed discussions of the issues involved in the Sharia'a contracts of Murabaha, Mudaraba, Musharaka, Ijara, Istisna'a, and Salam. Islamic insurance (Takaful) is also covered.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/0d/8a/f3/0d8af339558ef3a7e6f3e1cd04344120.jpg",
+    "price": 35,
+    "stock": 25,
+    "discount": 10,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Alex Bite",
+        "review": "I've never read a book with so info of Islamic banking.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Talk English",
+    "author": "Ken Xiao",
+    "publication": "CreateSpace",
+    "description": "The Secret To Speak English Like A Native In 6 Months For Busy People, Learn Spoken English From The Success",
+    "img": "https://covers.zlibcdn2.com/covers299/books/16/c0/cb/16c0cb88f76eed94cfedd62732cf870d.jpg",
+    "price": 20,
+    "stock": 30,
+    "discount": 5,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Tailor Lara",
+        "review": "A great book for English Learners",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Economics Book",
+    "author": "DK, Niall Kishtainy, George Abbot",
+    "publication": "DK, Dorling Kindersley",
+    "description": "The Economics Book is the essential reference for students and anyone else with an interest in how economies work. Easy-to-follow graphics, succinct quotations, and thoroughly accessible text throw light on the applications of economics, making them relatable through everyday examples and concerns. Employing DK's trademark visual approach, The Economics Book takes a frequently confusing subject and makes sense of it, clearly highlighting both historically important and emerging ideas in this critical field of science.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/02/a9/e0/02a9e05e3f5c60243e9ed018eb99be2d.jpg",
+    "price": 28,
+    "stock": 33,
+    "discount": 6,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Theory Orey",
+        "review": "A great book for Economics student",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Math Book",
+    "author": "DK",
+    "publication": "Dorling Kindersley",
+    "description": "Math's infinite mysteries unfold in this paperback edition of the bestselling The Math Book. Beginning millions of years ago with ancient “ant odometers” and moving through time to our modern-day quest for new dimensions, prolific polymath Clifford Pickover covers 250 milestones in mathematical history.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/ad/37/4c/ad374cb5f722260aa880c18ede0b60a7.jpg",
+    "price": 22,
+    "stock": 30,
+    "discount": 4,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Ben Ten",
+        "review": "I've never read a book with so info Maths",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Geography of the World",
+    "author": "DK, Simon Adams",
+    "publication": "The Essential Family Guide to Geography and Culture. ",
+    "description": "Global diversity comes alive in DK's essential guide to our ever-changing world, full of fact-packed spreads and full-color photographs. A guide to countries and continents in today's rapidly changing world. More than 60 large-scale, three-dimensional maps, 900 superb photographs, and 500 detailed artworks, charts, and diagrams bring the countries of the world to life",
+    "img": "https://covers.zlibcdn2.com/covers299/books/68/51/72/685172f2f75fa2c755b0eb1048006a3f.jpg",
+    "price": 42,
+    "stock": 20,
+    "discount": 7,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Henry Json",
+        "review": "I've never read a book with so info Geography",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Timelines of Everything",
+    "author": "DK, Smithsonian",
+    "publication": "DK Publishing",
+    "description": "Explore an illustrated history of the world through more than 130 timelines for kids. From dinosaurs and Vikings to the history of cinema and espionage, discover incredible world history in this lavish collection of timelines.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/6d/d1/2b/6dd12b34780c0f742c98b30dfaeed397.jpg",
+    "price": 32,
+    "stock": 23,
+    "discount": 4,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "Dave Gary",
+        "review": "This is a great Books",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Cooking for Friends",
+    "author": "Gordon Ramsay",
+    "publication": "Harper Collins",
+    "description": "In Cooking for Friends, award-winning chef, world-renowned restaurateur, bestselling author, and Hell’s Kitchen star Gordon Ramsey offers us more than 100 exceptional recipes from his own family table.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/0a/54/8c/0a548cea850c10b94876b4fdea7452de.jpg",
+    "price": 22,
+    "stock": 13,
+    "discount": 5,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Max Bite",
+        "review": "One of the best chef cooking Book.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "React and React Native",
+    "author": "Adam Boduch, Roy Derks, Mikhail Sakhniuk",
+    "publication": "Packt Publishing",
+    "description": "React and React Native is the best build cross-platform JavaScript applications with native power for the web, desktop, and mobile",
+    "img": "https://covers.zlibcdn2.com/covers299/books/14/2c/d8/142cd829a8032cb96bd8f4de267c8aa4.jpg",
+    "price": 20,
+    "stock": 22,
+    "discount": 4,
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Ryan Dale",
+        "review": "One of the best React and React Native programmers Books",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Cryptography Algorithms",
+    "author": "Massimo Bertaccini",
+    "publication": "Packt Publishing",
+    "description": "Cryptography Algorithms is designed to help you get up and running with modern cryptography algorithms. You'll not only explore old and modern security practices but also discover practical examples of implementing them effectively. The book starts with an overview of cryptography, exploring key concepts including popular classical symmetric and asymmetric algorithms, protocol standards, and more. You'll also cover everything from building crypto codes to breaking them.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/25/17/fd/2517fd2fb0b88150e4e50e51444e9502.jpg",
+    "price": 24,
+    "stock": 15,
+    "discount": 4,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Lamba Dale",
+        "review": "This is a great Book of Cryptography Algorithms",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Data Visualization with Python and JavaScript",
+    "author": "Kyran Dale",
+    "publication": "O'Reilly Media, Inc.",
+    "description": "In this practical book, author Kyran Dale shows data scientists and analysts—as well as Python and JavaScript developers—how to create the ideal toolchain for the job. By providing engaging examples and stressing hard-earned best practices, this guide teaches you how to leverage the power of best-of-breed Python and JavaScript libraries.",
+    "img": "https://covers.zlibcdn2.com/covers299/books/88/7b/ac/887bacd934ae056bdc247a40a8d232d5.png",
+    "price": 25,
+    "stock": 15,
+    "discount": 4,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Mr. Vishwas",
+        "review": "Data Visualization with Python and JavaScript is a great for web developer.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "title": "Spear",
+    "author": "Nicola Griffith",
+    "publication": "Master Publication",
+    "description": "Legendary storyteller Stephen King goes deep into the well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for their world or ours.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250819321_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
+    "price": 2,
+    "stock": 70,
+    "discount": 30,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Billy Summers",
+    "author": "Stephen King",
+    "publication": "ASTOUNDING SCIENCE FICTION",
+    "description": "We truly believe that we could take a fish bowl, add pieces of paper each with an adjective, subject and verb and Stephen King would deliver the best, most fantastic story. Ever. Add a genre, too — he’ll work that in. We are THRILLED by this latest pairing by this country’s most formidable author.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982173616_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 15,
+    "stock": 50,
+    "discount": 20,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "Such an heart touching book.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Resting Place",
+    "author": "Camilla Sten, Alexandra Fleming (Translator)",
+    "publication": "Peace Publications",
+    "description": "Crimson Peak meets The Sanatorium in The Resting Place, a heart-thumping, unforgettable novel of horror and suspense by international sensation Camilla Sten",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250249272_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 15,
+    "stock": 40,
+    "discount": 25,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Yerba Buena: A Novel",
+    "author": "Nina LaCour",
+    "publication": "Lacour Publication",
+    "description": "Sara Foster runs away from home at sixteen, leaving behind the girl she once was, capable of trust and intimacy. Years later, in Los Angeles, she is a sought-after bartender, renowned as much for her brilliant cocktails as for the mystery that clings to her. Across the city, Emilie Dubois is in a holding pattern, yearning for the beauty and community her Creole grandparents cultivated but unable to commit.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250810465_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 25,
+    "stock": 200,
+    "discount": 10,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Woman, Eating",
+    "author": "Claire Kohda",
+    "publication": "Woman Publications",
+    "description": "A young, mixed-race vampire must find a way to balance her deep-seated desire to live amongst humans with her incessant hunger in this stunning debut novel from a writer-to-watch.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780063140882_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 13,
+    "stock": 60,
+    "discount": 40,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Golden Couple",
+    "author": "Greer Hendricks, Sarah Pekkanen",
+    "publication": "Hendricks Publication",
+    "description": "Wealthy Washington suburbanites Marissa and Matthew Bishop seem to have it all—until Marissa is unfaithful. Beneath their veneer of perfection is a relationship riven by work and a lack of intimacy. She wants to repair things for the sake of their eight-year-old son and because she loves her husband. Enter Avery Chambers.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250273208_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 18,
+    "stock": 90,
+    "discount": 20,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Sense and Second-Degree Murder",
+    "author": "Tirzah Price",
+    "publication": "Elizabeth Publications",
+    "description": "The next Jane Austen Murder Mystery is upon us, and even if you’ve never read Sense and Sensibility, this twist on a classic will keep you on the edge of your seat. When Elinor and Marianne’s father is murdered and leaves everything to their half-brother in his will, the two team up to solve the mystery of who killed their father. Perfect for fans of Jane Austen and murder mysteries, this next installment in the series is a fantastic exploration of what it means to be a woman in a man’s world.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062889836_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 25,
+    "stock": 80,
+    "discount": 30,
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Notes on Your Sudden Disappearance: A Novel",
+    "author": "Alison Espach",
+    "publication": "Alison Publications",
+    "description": "For much of her life, Sally Holt has been mystified by the things her older sister, Kathy, seems to have been born knowing. Kathy has answers for all of Sally’s questions about life, about love, and about Billy Barnes, a rising senior and local basketball star who mans the concession stand at the town pool. The girls have been fascinated by Billy ever since he jumped off the roof in elementary school, but Billy has never shown much interest in them until the summer before Sally begins eighth grade. By then, their mutual infatuation with Billy is one of the few things the increasingly different sisters have in common.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250823144_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 17,
+    "stock": 70,
+    "discount": 30,
+    "rating": 4.5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Fear No Evil",
+    "author": "James Patterson",
+    "publication": "Master Publication",
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316499149_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Bloomsbury Girls: A Novel",
+    "author": "Natalie Jenner",
+    "publication": "Master Publication",
+    "description": "Alex Cross enters the final battle with the all-knowing genius who has stalked him and his family for years.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250276698_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 23,
+    "stock": 50,
+    "discount": 50,
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Cover Story: A Novel",
+    "author": "Susan Rigetti",
+    "publication": "HarperCollins Publishers",
+    "description": "After a rough year at NYU, aspiring writer Lora Ricci is thrilled to land a summer internship at ELLE magazine where she meets Cat Wolff, contributing editor and enigmatic daughter of a clean-energy mogul. Cat takes Lora under her wing, soliciting her help with side projects and encouraging her writing.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780063072053_p0_v3_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 28,
+    "stock": 30,
+    "discount": "50%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Al Amin Khan",
+        "review": "This is a great book",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Recovery Agent",
+    "author": "Janet Evanovich",
+    "publication": "Atria Books",
+    "description": "Lost something? Gabriela Rose knows how to get it back. As a recovery agent, she's hired by individuals and companies seeking lost treasures, stolen heirlooms, or missing assets of any kind. She's reliable, cool under pressure, and well trained in weapons of all types. But Gabriela's latest job isn't for some bamboozled billionaire, it's for her own family, whose home is going to be wiped off the map if they can't come up with a lot of money fast.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982187224_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 38,
+    "discount": "50%",
+    "rating": 4,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "review": "Faboules",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "When You Are Mine",
+    "author": "Michael Robotham",
+    "publication": "Scribner",
+    "description": "Philomena McCarthy is an ambitious police officer with the elite Metropolitan Police in London. The estranged daughter of a notorious and powerful mobster, she has defied the odds to follow her dream. On a routine patrol, Philomena responds to a domestic violence call and rescues a bloodied young woman, Tempe Brown, who is the mistress of a decorated and intimidating London detective, Darren Goodall. The incident is hushed up by the police to protect Goodall's reputation, but Philomena has now made a dangerous enemy who is afraid of no one.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982166458_p0_v4_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 13,
+    "stock": 56,
+    "discount": "50%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Shahriyar",
+        "review": "What a trill!!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Harbor",
+    "author": "Katrine Engberg",
+    "publication": "Gallery/Scout Press",
+    "description": "the police assume he's simply a runaway—a typically overlooked middle child doing what teenagers do all around the world. But his frantic family is certain that something terrible has happened. After all, what runaway would leave behind a note that reads: He looked around and saw the knife that had stabbed Basil Hallward. He had cleaned it many times, till there was no stain left upon it. It was bright and glistened. As it had killed the painter, so it would kill the painter's work, and all that that meant. It would kill the past, and when that was dead, he would be free.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781982127633_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 28,
+    "stock": 45,
+    "discount": "50%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Nafiz",
+        "review": "This is Ok",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "A Thousand Steps",
+    "author": "T. Jefferson Parker",
+    "publication": "Tom Doherty Associates",
+    "description": "Matt is sixteen, broke, and never sure where his next meal is coming from. Mom's a stoner, his deadbeat dad is a no-show, his brother's fighting in Nam . . . and his big sister Jazz has just gone missing. The cops figure she's just another runaway hippie chick, enjoying a summer of love, but Matt doesn't believe it. Not after another missing girl turns up dead on the beach.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781250793539_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 28,
+    "stock": 37,
+    "discount": "50%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Mishal",
+        "review": "One of the best Mystery book i have ever read",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "All Good People Here: A Novel",
+    "author": "Ashley Flowers",
+    "publication": "Random House Publishing Group",
+    "description": "You can't ever know for sure what happens behind closed doors. Everyone from Wakarusa, Indiana, remembers the infamous case of January Jacobs, who was discovered in a ditch hours after her family awoke to find her gone. Margot Davies was six at the time, the same age as January—and they were next-door neighbors. In the twenty years since, Margot has grown up, moved away, and become a big-city journalist. But she's always been haunted by the feeling that it could've been her. And the worst part is, January's killer has never been brought to justice.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780593496473_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 28,
+    "stock": 27,
+    "discount": "14%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Zabed",
+        "review": "Awesome, recommended",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "22 Seconds",
+    "author": "James Patterson, Maxine Paetro",
+    "publication": "Little, Brown and Company",
+    "description": "SFPD Sergeant Lindsay Boxer has guns on her mind. There's buzz of a last-ditch shipment of drugs and weapons crossing the Mexican border ahead of new restrictive gun laws. Before Lindsay can act, her top informant tips her to a case that hits disturbingly close to home.Former cops. Professional hits. All with the same warning scrawled on their bodies: You talk, you die",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780316499378_p0_v4_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B300x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 32,
+    "discount": "36%",
+    "rating": 3,
+    "reviews": [
+      {
+        "name": "Iqbal",
+        "review": "Goofy story, Not my type",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "Girl, Forgotten",
+    "author": "Karin Slaughter",
+    "publication": "HarperCollins Publishers",
+    "description": "A small town hides a big secret… Who killed Emily Vaughn? A girl with a secret… Longbill Beach, 1982. Emily Vaughn gets ready for the prom. For an athlete, who is smart, pretty and well-liked, this night should be the highlight of her high school career. But Emily has a secret. And by the end of the evening, that secret will be silenced forever. An unsolved murder…",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062858115_p0_v6_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 15,
+    "discount": "30%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Enam",
+        "review": "What a twist!!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Investigator",
+    "author": "John Sandford",
+    "publication": "Penguin Publishing Group",
+    "description": "By age twenty-four, Letty Davenport has seen more action and uncovered more secrets than many law enforcement professionals. Now a recent Stanford grad with a master's in economics, she's restless and bored in a desk job for U.S. Senator Colles. Letty's ready to quit, but her skills have impressed Colles, and he offers her a carrot: feet-on-the-ground investigative work, in conjunction with the Department of Homeland Security.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780593328682_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 45,
+    "discount": "31%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Tousif",
+        "review": "Nice , gotta read it again",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "City on fire",
+    "author": "Don Winslow",
+    "publication": "HarperCollins Publishers",
+    "description": "Two criminal empires together control all of New England.Until a beautiful woman comes between the Irish and the Italians, launching a war that will see them kill each other, destroy an alliance, and set a city on fire.Danny Ryan yearns for a more “legit” life and a place in the sun. But as the bloody conflict stacks body on body and brother turns against brother, Danny has to rise above himself. To save the friends he loves like family and the family he has sworn to protect, he becomes a leader, a ruthless strategist, and a master of a treacherous game in which the winners live and the losers die.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9780062851192_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 30,
+    "discount": "30%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "Finnn",
+        "review": "this book is awesome",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "title": "The Butcher and The Wren",
+    "author": "Alaina Urquhart",
+    "publication": "Zando",
+    "description": "Something dark is lurking in the Louisiana bayou: a methodical killer with a penchant for medical experimentation is hard at work completing his most harrowing crime yet, taunting the authorities who desperately try to catch up.But forensic pathologist Dr. Wren Muller is the best there is. Armed with an encyclopedic knowledge of historical crimes, and years of experience working in the Medical Examiner's office, she's never encountered a case she couldn't solve. Until now. Case after case is piling up on Wren's examination table, and soon she is sucked into an all-consuming cat-and-mouse chase with a brutal murderer getting more brazen by the day.",
+    "img": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781638930143_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D",
+    "price": 29,
+    "stock": 30,
+    "discount": "30%",
+    "rating": 5,
+    "reviews": [
+      {
+        "name": "pam",
+        "review": "Twist after twist , Amazing",
+        "rating": 5
+      }
+    ]
+  }
 ]
