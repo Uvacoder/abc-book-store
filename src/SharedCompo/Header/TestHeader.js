@@ -5,7 +5,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import TopOffer from "./TopOffer";
 
-const Header = () => {
+const TestHeader = () => {
   return (
     <div>
       <div className="bg-[#3e5962]">
@@ -72,4 +72,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default TestHeader;
