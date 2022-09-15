@@ -40,9 +40,9 @@ const AboutAuthor = () => {
       </div>
       <div className="text-center text-[#347d56] mt-10">
         {!isOpen ? (
-          <button onClick={handleHidden}>see more &dArr;</button>
+          <button onClick={handleHidden}>see less &uArr;</button>
         ) : (
-          <button onClick={showHidden}>see less &uArr;</button>
+          <button onClick={showHidden}>see more &dArr;</button>
         )}
       </div>
     </div>
