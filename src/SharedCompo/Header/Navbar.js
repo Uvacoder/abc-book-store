@@ -5,7 +5,6 @@ import { BiUserCircle } from "react-icons/bi";
 import { FcLikePlaceholder } from "react-icons/fc";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import TopOffer from "./TopOffer";
-
 import "./Style/navbar.css";
 import { useForm } from "react-hook-form";
 import SignInModal from "../../Pages/Signin/Signin";
@@ -15,20 +14,6 @@ const Navbar = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
-  const dropdownMenu = (
-    <>
-      <li>
-        <Link to="/">Top Rated</Link>
-      </li>
-      <li>
-        <Link to="/">All Books</Link>
-      </li>
-      <li>
-        <Link to="/">New Arrival</Link>
-      </li>
-    </>
-  );
-
   return (
     <div className="">
       <div className="bg-[#3e5962]">
@@ -36,7 +21,6 @@ const Navbar = () => {
           <TopOffer />
         </div>
       </div>
-
       {/*------------------------  Navigation Menu---------------------*/}
       <div className="container mx-auto">
         {/* First section of navigation bar */}
@@ -44,9 +28,9 @@ const Navbar = () => {
           {/* Brand Logo  */}
           <div className="">
             <h1 className="text-2xl font-bold">
-              <span className="text-[#54575a]">House </span>
-              <span className="text-[#cdb45d]"> & </span>
-              <span className="text-[#54575a]">NOVEL</span>
+              <span className="text-[#54575a]"> House </span>
+              <span className="text-[#cdb45d]"> Of </span>
+              <span className="text-[#54575a]">Books</span>
             </h1>
           </div>
 
@@ -74,7 +58,6 @@ const Navbar = () => {
               </button>
             </form>
           </div>
-
           {/* --------------------Icons--------------------  */}
           <div className="flex flex-row justify-center items-center gap-4 user-section">
             {/* userIcon */}
@@ -89,7 +72,6 @@ const Navbar = () => {
                   <HiOutlineChevronDown className="text-xl" />
                 </button>
               </label>
-
               <ul
                 tabIndex="0"
                 className="dropdown-content shadow bg-base-100 mt-[-20px] w-[185px]"
@@ -124,7 +106,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-
             {/* wishlist */}
             <div>
               <button
@@ -135,10 +116,9 @@ const Navbar = () => {
                 WISHLIST
               </button>
             </div>
-
             {/* shopping cart */}
-            <div className="items-cente mr-4">
-              <button type="submit" className="flex flex row relative">
+            <div className="items-center mr-4">
+              <button type="submit" className="flex row relative">
                 <AiOutlineShoppingCart className="text-3xl" />
                 <div class="inline-flex absolute -top-2 -right-2 justify-center items-center w-6 h-6 text-xs font-bold text-white bg-[#54575a] rounded-full border-2 border-white dark:border-gray-900">
                   10
@@ -147,53 +127,219 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-
         {/* -----------------Second section of navigatio bar-------------------*/}
         <div className="py-5">
           <nav className="nav-second-part">
             <ul className="flex justify-self items-center">
               <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <div className="dropdown dropdown-hover">
-                  <label tabIndex={0} className=" m-1">
-                    <a href="#/">Books</a>
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/books">Books</Link>
                   </label>
                   <ul
                     tabIndex={0}
                     className="dropdown-content bg-base-100 w-[150px]"
                   >
-                    {dropdownMenu}
+                    <li>
+                      <Link to="/books/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/books/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/books/newArrivals">New Arrival</Link>
+                    </li>
                   </ul>
                 </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Fiction</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/fiction">Fiction</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/fiction/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/fiction/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/fiction/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">NonFiction</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/novel">Novel</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/novel/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/novel/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/novel/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Novel</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/crime">Crime</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/crime/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/crime/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/crime/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Crime</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/kids">Kids</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/kids/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/kids/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/kids/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Kids</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/academic">Academic</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/academic/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/academic/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/academic/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Academic</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/ebooks">E-Books</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/ebooks/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/ebooks/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/ebooks/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">eBooks</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/audioBooks">Audio Books</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/audioBooks/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/audioBooks/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/audioBooks/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Audio Books</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/toysGames">Toys &#38; Games</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/toysGames/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/toysGames/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/toysGames/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Toys & Games</a>
-              </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Stationary & Gifts</a>
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className="m-1">
+                    <Link to="/stationary">Stationary &#38; Gifts</Link>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    <li>
+                      <Link to="/stationary/topRated">Top Rated</Link>
+                    </li>
+                    <li>
+                      <Link to="/stationary/allBooks">All Books</Link>
+                    </li>
+                    <li>
+                      <Link to="/stationary/newArrival">New Arrival</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </nav>
