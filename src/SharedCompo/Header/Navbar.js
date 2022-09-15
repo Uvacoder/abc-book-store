@@ -84,15 +84,59 @@ const Navbar = () => {
 
             {/* shopping cart */}
             <div className="items-cente">
-              <button type="submit">
+              <button type="submit" className="flex flex row relative">
                 <AiOutlineShoppingCart className="text-3xl" />
+                <div class="inline-flex absolute -top-2 -right-2 justify-center items-center w-6 h-6 text-xs font-bold text-white bg-[#54575a] rounded-full border-2 border-white dark:border-gray-900">
+                  10
+                </div>
               </button>
             </div>
           </div>
         </div>
 
         {/* Second section of navigatio bar  */}
-        <div></div>
+        <div className="py-3">
+          <nav>
+            <ul className="flex justify-between items-center text-center">
+              <li>
+                <a href="#/">Books</a>
+              </li>
+              <li>
+                <a href="#/">Fiction</a>
+              </li>
+              <li>
+                <a href="#/">NonFiction</a>
+              </li>
+              <li>
+                <a href="#/">Novel</a>
+              </li>
+              <li>
+                <a href="#/">Crime</a>
+              </li>
+              <li>
+                <a href="#/">Kids</a>
+              </li>
+              <li>
+                <a href="#/">Academic</a>
+              </li>
+              <li>
+                <a href="#/">eBooks</a>
+              </li>
+              <li>
+                <a href="#/">Audio Books</a>
+              </li>
+              <li>
+                <a href="#/">Toys & Games</a>
+              </li>
+              <li>
+                <a href="#/">Stationary & Gifts</a>
+              </li>
+              <li>
+                <a href="#">Music & Movies</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </>
   );
