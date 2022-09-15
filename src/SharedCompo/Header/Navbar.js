@@ -27,11 +27,11 @@ const Navbar = () => {
         <div className="flex items-center">
           {/* Brand Logo  */}
           <div className="">
-            <h1 className="text-2xl font-bold">
+            <Link to="/" className="text-2xl font-bold">
               <span className="text-[#54575a]"> House </span>
               <span className="text-[#cdb45d]"> Of </span>
               <span className="text-[#54575a]">Books</span>
-            </h1>
+            </Link>
           </div>
 
           {/*------------------------ search bar---------------------*/}
