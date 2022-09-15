@@ -6,6 +6,7 @@ import { AiFillStar } from 'react-icons/ai';
 import { BsStarHalf,BsExclamation } from 'react-icons/bs';
 import { FiTruck } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import TabHome from './BookDetailsTab/TabHome';
 
 const BookDetails = () => {
 
@@ -113,7 +114,9 @@ const priceRange=[
 
             </div>
         </div>
+        
     </div>
+    <TabHome/>
     </>
   )
 }
