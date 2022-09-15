@@ -44,5 +44,3 @@ export const carouselOffer = [
   },
 ];
 
-const upComming = "https://i.ibb.co/Jngcn6r/upcomming.jpg";
-const offer = "https://i.ibb.co/HrncqqD/single-1.jpg";

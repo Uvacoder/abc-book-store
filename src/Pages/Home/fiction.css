@@ -1,0 +1,55 @@
+.card {
+    width: 190px;
+    height: 254px;
+    background: #00ff88;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(35, 35, 35, 0.3);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+/*Image*/
+.card-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: transform .3s ease-in-out;
+    z-index: 2;
+}
+
+.title {
+    font-weight: 500;
+}
+
+/* Hover */
+.card:hover {
+    box-shadow: 1px 2px 10px rgba(35, 35, 35, 0.5);
+}
+
+.card:hover .card-img {
+    transform: translateY(-40%);
+}
+
+.card:hover .social-media li {
+    transform: translateY(-5%);
+    opacity: 1;
+}
+
+.card:hover .social-media li:nth-child(1) {
+    transition-delay: 0s;
+}
+
+.card:hover .social-media li:nth-child(2) {
+    transition-delay: .1s;
+}
+
+.card:hover .social-media li:nth-child(3) {
+    transition-delay: .2s;
+}
