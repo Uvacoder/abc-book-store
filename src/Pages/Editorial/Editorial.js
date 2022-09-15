@@ -72,7 +72,7 @@ const Editorial = () => {
 
                 </div>
                 <div className='flex justify-center my-5'>
-                    <button className='border border-black px-4 py-1 my-5 absolte hover:bg-black hover:text-white text-sm' onClick={toggoleButton}>{readMoreShown ? "Read less" : "Read More"}</button>
+                    <button className='border border-gray-700 px-4 py-1 my-5 absolte  hover:bg-gray-700 hover:text-white text-sm transition-color duration-300' onClick={toggoleButton}>{readMoreShown ? "Read less" : "Read More"}</button>
                 </div>
             </div>
         </>
