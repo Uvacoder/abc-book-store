@@ -34,13 +34,13 @@ const Signin = () => {
 
   return (
     <div className="container mx-auto">
-      <div className="bg-white border w-11/12 md:w-9/12 mx-auto lg:w-2/5 h-max flex items-center shadow-md p-7">
-        <div className="w-full">
-          <h2 className="text-[23px] font-semibold mb-5">
+      <div className="bg-white border flex items-center shadow-md p-7">
+        <div className="w-50">
+          <h2 className="text-[14px] font-semibold mb-5">
             Sign in or Create an Account
           </h2>
 
-          <form
+          <forms
             onSubmit={handleSubmit(onSubmit)}
             className="w-full space-y-6 mb-6"
           >
@@ -89,7 +89,7 @@ const Signin = () => {
               className="secure-signIn-btn py-[.69rem] w-full text-white rounded-sm"
               value="Secure Sign In"
             />
-          </form>
+          </forms>
 
           <div className="checkbox-forgot flex justify-between mb-6">
             <div className="checkbox-part flex justify-center">
