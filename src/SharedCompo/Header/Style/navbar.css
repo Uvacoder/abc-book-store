@@ -23,23 +23,33 @@
 
 .dropdown-content li a {
   font-size: 14px;
-  padding: 6px 12px;
+  padding: 6px 15px;
 }
 
 nav ul li {
-  /* width: 100px; */
   justify-content: center;
   text-align: center;
   align-items: center;
+  padding-bottom:  12px;
 }
+
 nav ul li:not(:first-child):before {
   content: "|";
   position: absolute;
   color: #54575a;
 }
+
 nav ul li a {
   text-decoration: none;
   padding: 0px 16px;
   text-align: center;
   font-weight: bold;
 }
+
+
+
+.modal-box{
+  margin: 0 auto;
+  width: 840px;
+  border-radius: 0;
+} 

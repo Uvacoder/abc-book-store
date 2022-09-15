@@ -8,34 +8,36 @@ import TopOffer from "./TopOffer";
 
 import "./Style/navbar.css";
 import { useForm } from "react-hook-form";
+import SignInModal from "../../Pages/Signin/SignInModal";
 
 const Navbar = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
   return (
-    <>
+    <div className="">
       <div className="bg-[#3e5962]">
         <div className="w-3/5 my-auto mx-auto">
           <TopOffer />
         </div>
       </div>
 
-      {/* Navigation Menu */}
+      {/*------------------------  Navigation Menu---------------------*/}
       <div className="container mx-auto">
         {/* First section of navigation bar */}
-        <div className="flex justify-between items-center">
+        <div className="flex items-center">
           {/* Brand Logo  */}
           <div className="">
             <h1 className="text-2xl font-bold">
-              <span className="text-[#54575a]">BARNES</span>
+              <span className="text-[#54575a]">House </span>
               <span className="text-[#cdb45d]"> & </span>
               <span className="text-[#54575a]">NOVEL</span>
             </h1>
           </div>
 
-          {/* search bar  */}
-          <form
+          {/*------------------------ search bar---------------------*/}
+          <div className="grow mx-10">
+            <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-row justify-center items-center border border-[#54575a]"
           >
@@ -47,7 +49,7 @@ const Navbar = () => {
             </div>
 
             <input
-              className="search-input px-4 p-2"
+              className="search-input px-4 p-2 w-full"
               placeholder="Search Your Book"
               {...register("search")}
             />
@@ -56,6 +58,7 @@ const Navbar = () => {
               <AiOutlineSearch className="text-white text-2xl" />
             </button>
           </form>
+          </div>
 
           {/* --------------------Icons--------------------  */}
           <div className="flex flex-row justify-center items-center gap-4">
@@ -79,7 +82,10 @@ const Navbar = () => {
                 <div className="p-3">
                   <div className="text-center bg-[#346250]">
                     <button type="submit" className="text-white p-1">
-                      Sign In
+                      {/* open modal */}
+                      <label htmlFor="my-modal-3" className="modal-button cursor-pointer">
+                        Sign In
+                      </label>
                     </button>
                   </div>
                   <div className="text-center ">
@@ -125,50 +131,64 @@ const Navbar = () => {
         </div>
 
         {/* -----------------Second section of navigatio bar-------------------*/}
-        <div className="py-3">
+        <div className="py-3 nav-second-part">
           <nav>
             <ul className="flex justify-between items-center text-center">
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Books</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Fiction</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">NonFiction</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Novel</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Crime</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Kids</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Academic</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">eBooks</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Audio Books</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Toys & Games</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Stationary & Gifts</a>
               </li>
-              <li>
+              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Music & Movies</a>
               </li>
             </ul>
           </nav>
         </div>
+
+        {/* modal body */}
+        <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box relative">
+            <label
+              htmlFor="my-modal-3"
+              className="btn btn-sm btn-circle absolute right-2 top-2"
+            >
+              ✕
+            </label>
+            <SignInModal/>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
