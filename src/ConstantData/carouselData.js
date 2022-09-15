@@ -5,7 +5,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/Kr1hmnX/topCaro.jpg",
+    img: "https://i.ibb.co/q53f37X/topCaro.jpg",
   },
   {
     id: 3,
@@ -14,6 +14,10 @@ export const carouselData = [
   {
     id: 4,
     img: "https://i.ibb.co/LhLJQBQ/topCaro4.jpg",
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co/NjFL05L/top-Caro-5.jpg",
   },
 ];
 
