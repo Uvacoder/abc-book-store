@@ -8,11 +8,26 @@ import TopOffer from "./TopOffer";
 
 import "./Style/navbar.css";
 import { useForm } from "react-hook-form";
-import SignInModal from "../../Pages/Signin/SignInModal";
+import SignInModal from "../../Pages/Signin/Signin";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
+
+  const dropdownMenu = (
+    <>
+      <li>
+        <Link to="/">Top Rated</Link>
+      </li>
+      <li>
+        <Link to="/">All Books</Link>
+      </li>
+      <li>
+        <Link to="/">New Arrival</Link>
+      </li>
+    </>
+  );
 
   return (
     <div className="">
@@ -38,30 +53,30 @@ const Navbar = () => {
           {/*------------------------ search bar---------------------*/}
           <div className="grow mx-10">
             <form
-            onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-row justify-center items-center border border-[#54575a]"
-          >
-            <div className="flex flex-row justify-center align-center py-2 px-5 bg-[#ddd]">
-              <button className="">All</button>
-              <div className="text-center">
-                <HiOutlineChevronDown className="text-xl" />
+              onSubmit={handleSubmit(onSubmit)}
+              className="flex flex-row justify-center items-center border border-[#54575a]"
+            >
+              <div className="flex flex-row justify-center align-center py-2 px-5 bg-[#ddd]">
+                <button className="">All</button>
+                <div className="text-center">
+                  <HiOutlineChevronDown className="text-xl" />
+                </div>
               </div>
-            </div>
 
-            <input
-              className="search-input px-4 p-2 w-full"
-              placeholder="Search Your Book"
-              {...register("search")}
-            />
+              <input
+                className="search-input px-4 p-2 w-full"
+                placeholder="Search Your Book"
+                {...register("search")}
+              />
 
-            <button type="submit" className="py-2 px-4 bg-[#54575a]">
-              <AiOutlineSearch className="text-white text-2xl" />
-            </button>
-          </form>
+              <button type="submit" className="py-2 px-4 bg-[#54575a]">
+                <AiOutlineSearch className="text-white text-2xl" />
+              </button>
+            </form>
           </div>
 
           {/* --------------------Icons--------------------  */}
-          <div className="flex flex-row justify-center items-center gap-4">
+          <div className="flex flex-row justify-center items-center gap-4 user-section">
             {/* userIcon */}
             <div className="dropdown dropdown-hover">
               <label tabIndex="0" className="m-3">
@@ -83,7 +98,10 @@ const Navbar = () => {
                   <div className="text-center bg-[#346250]">
                     <button type="submit" className="text-white p-1">
                       {/* open modal */}
-                      <label htmlFor="my-modal-3" className="modal-button cursor-pointer">
+                      <label
+                        htmlFor="my-modal-3"
+                        className="modal-button cursor-pointer"
+                      >
                         Sign In
                       </label>
                     </button>
@@ -131,11 +149,21 @@ const Navbar = () => {
         </div>
 
         {/* -----------------Second section of navigatio bar-------------------*/}
-        <div className="py-3 nav-second-part">
-          <nav>
-            <ul className="flex justify-between items-center text-center">
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Books</a>
+        <div className="py-5">
+          <nav className="nav-second-part">
+            <ul className="flex justify-self items-center">
+              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
+                <div className="dropdown dropdown-hover">
+                  <label tabIndex={0} className=" m-1">
+                    <a href="#/">Books</a>
+                  </label>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content bg-base-100 w-[150px]"
+                  >
+                    {dropdownMenu}
+                  </ul>
+                </div>
               </li>
               <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Fiction</a>
@@ -167,9 +195,6 @@ const Navbar = () => {
               <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <a href="#/">Stationary & Gifts</a>
               </li>
-              <li className="border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <a href="#/">Music & Movies</a>
-              </li>
             </ul>
           </nav>
         </div>
@@ -184,7 +209,7 @@ const Navbar = () => {
             >
               ✕
             </label>
-            <SignInModal/>
+            <SignInModal />
           </div>
         </div>
       </div>

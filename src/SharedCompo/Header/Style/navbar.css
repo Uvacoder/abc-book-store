@@ -2,18 +2,18 @@
   outline: 0.14em solid #54575a;
   border-radius: none;
 }
-.dropdown-content {
+.user-section .dropdown-content {
   border: 1px solid #54575a;
 }
-.dropdown-content li {
+.user-section .dropdown-content li {
   padding: 2px 0px;
 }
 
-.dropdown-content li:hover {
+.user-section .dropdown-content li:hover {
   background: #ddd;
   /* border-left: 2px solid black; */
 }
-.dropdown-content li:hover:before {
+.user-section .dropdown-content li:hover:before {
   content: ">";
   position: absolute;
   width: 2px;
@@ -21,7 +21,7 @@
   color: #54575a;
 }
 
-.dropdown-content li a {
+.user-section .dropdown-content li a {
   font-size: 14px;
   padding: 6px 15px;
 }
@@ -43,9 +43,9 @@ nav ul li a {
   text-decoration: none;
   padding: 0px 16px;
   text-align: center;
+  font-size: 18px;
   font-weight: bold;
 }
-
 
 
 .modal-box{
@@ -53,3 +53,27 @@ nav ul li a {
   width: 840px;
   border-radius: 0;
 } 
+/* ############################# */
+.second-dropdown .dropdown-content {
+  border: 1px solid #54575a;
+}
+.second-dropdown .dropdown-content li {
+  padding: 2px 0px;
+}
+
+.second-dropdown .dropdown-content li:hover {
+  background: #ddd;
+  /* border-left: 2px solid black; */
+}
+.second-dropdown .dropdown-content li:hover:before {
+  content: ">";
+  position: absolute;
+  width: 2px;
+
+  color: #54575a;
+}
+
+.second-dropdown .dropdown-content li a {
+  font-size: 13px;
+  padding: 6px 15px;
+}

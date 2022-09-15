@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { set, useForm } from "react-hook-form";
+import React, {useState } from "react";
+import {useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
-import "./SignUp.css";
+import "./Signup.css";
 // import { useAddUser } from "../../hooks/useUserHook";
 import axios from "axios";
 
-const ModalSignUp = () => {
+const Singup = () => {
   const [err, setErr] = useState("");
   const {
     register,
@@ -172,4 +172,4 @@ const ModalSignUp = () => {
   );
 };
 
-export default ModalSignUp;
+export default Singup;
