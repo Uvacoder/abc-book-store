@@ -6,15 +6,15 @@ const AddIndividualsReview = () => {
   return (
     <>
     <div className="h-screen w-full mx-auto bg-slate-200 relative">
-            <div className=" bg-white w-10/12 md:w-9/12 lg:w-8/12 absolute mt-10 mx-auto inset-0 shadow-lg mb-10">
-               <div className="flex flex-col lg:flex-row">
-                <div className="Review-Book basis-1/3 w-full p-2 pr-0 bg-slate-100 h-full">
+            <div className=" bg-white w-10/12 md:w-9/12 lg:w-8/12 absolute mt-10 mx-auto inset-0 shadow-lg h-5/6">
+               <div className="flex flex-col lg:flex-row h-full">
+                <div className="Review-Book basis-1/3 w-full p-2 pr-0 bg-slate-100 h-full mx-auto">
                     <img src={img} className='w-11/12' alt="" />
-                    <div className="text-sm mt-5 mb-24">
+                    <div className="text-sm mt-5">
                         <h1>Sourcebooks - Court of the Vampire Queen (B&N Exclusive Edition)</h1>
                     </div>
                 </div>
-                <div className="Review-Form basis-2/3 mt-5">
+                <div className="Review-Form basis-2/3 mt-5 h-full bg-pink-100">
                     <div className="bg-white mb-3">
                     <h1 className='text-xl font-semibold'>My Review for Court of the Vampire Queen (B&N Exclusive Edition)</h1>
                     <h1 className='text-sm mt-2'>Required fields are marked with *</h1>
@@ -37,15 +37,10 @@ const AddIndividualsReview = () => {
                   <div className="">
                     <textarea className='input-bordered border border-1 mx-3 my-2 py-3 outline-0 focus:border-pink-600 px-6 placeholder-black ' placeholder='Your Review' name="" id="" cols="58" rows="5"></textarea>
                   </div>
-                  <div className="mx-3 mt-1 pb-[116px]">
+                  <div className="mx-3 mt-1">
                    <button className='px-12 py-3 text-white bg-blue-600 text-sm font-medium hover:bg-pink-600'>Submit</button>
                   </div>
-                    
-
-
                   </form>
-     
-
                    
                 </div>
 
