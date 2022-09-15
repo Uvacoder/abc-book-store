@@ -19,7 +19,7 @@ const AboutAuthor = () => {
           <img className="w-[200px] ml-[35px]" src={authorImg} alt="" />
         </div>
 
-        <article className={`w-2/3   p-12 ${hidden}`}>
+        <article className={`w-2/3   p-12 ${hidden} transition`}>
           Born and raised in Southern California, Brit Bennett graduated from
           Stanford University and later earned her MFA in fiction at the
           University of Michigan. Her debut novel, The Mothers, was a New York
@@ -40,9 +40,9 @@ const AboutAuthor = () => {
       </div>
       <div className="text-center text-[#347d56] mt-10">
         {!isOpen ? (
-          <button onClick={handleHidden}>see more</button>
+          <button onClick={handleHidden}>see more &dArr;</button>
         ) : (
-          <button onClick={showHidden}>see less</button>
+          <button onClick={showHidden}>see less &uArr;</button>
         )}
       </div>
     </div>
