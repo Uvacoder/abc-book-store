@@ -1,21 +1,45 @@
-.search-input:focus{
-    outline: 0.14em solid #54575a;
-    border-radius: none;
+.search-input:focus {
+  outline: 0.14em solid #54575a;
+  border-radius: none;
 }
-nav ul li{
-    /* width: 100px; */
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.dropdown-content {
+  border: 1px solid #54575a;
 }
-nav ul li:not(:first-child):before{
-    content: "|";
-    position: absolute;
-    color:#54575a;
+.dropdown-content li {
+  padding: 2px 0px;
 }
-nav ul li a{
-    text-decoration: none;
-    padding: 0px 16px;
-    text-align: center;
-    font-weight: bold;
+
+.dropdown-content li:hover {
+  background: #ddd;
+  /* border-left: 2px solid black; */
+}
+.dropdown-content li:hover:before {
+  content: ">";
+  position: absolute;
+  width: 2px;
+
+  color: #54575a;
+}
+
+.dropdown-content li a {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+nav ul li {
+  /* width: 100px; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+nav ul li:not(:first-child):before {
+  content: "|";
+  position: absolute;
+  color: #54575a;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 0px 16px;
+  text-align: center;
+  font-weight: bold;
 }

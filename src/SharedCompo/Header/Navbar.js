@@ -22,9 +22,9 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Menu */}
-      <div className="container mx-auto py-2">
+      <div className="container mx-auto">
         {/* First section of navigation bar */}
-        <div className="my-3 flex justify-between items-center">
+        <div className="flex justify-between items-center">
           {/* Brand Logo  */}
           <div className="">
             <h1 className="text-2xl font-bold">
@@ -57,18 +57,48 @@ const Navbar = () => {
             </button>
           </form>
 
-          {/* Icons  */}
+          {/* --------------------Icons--------------------  */}
           <div className="flex flex-row justify-center items-center gap-4">
             {/* userIcon */}
-            <div>
-              <button
-                type="submit"
-                className="text-[14px] flex flex-row justify-center items-center gap-2"
+            <div className="dropdown dropdown-hover">
+              <label tabIndex="0" className="m-3">
+                <button
+                  type="submit"
+                  className="text-[14px] flex flex-row justify-center items-center gap-2"
+                >
+                  <BiUserCircle className="text-3xl" />
+                  <span>MY ACCOUNT</span>
+                  <HiOutlineChevronDown className="text-xl" />
+                </button>
+              </label>
+
+              <ul
+                tabIndex="0"
+                className="dropdown-content shadow bg-base-100 mt-[-20px] w-[185px]"
               >
-                <BiUserCircle className="text-3xl" />
-                <span>MY ACCOUNT</span>
-                <HiOutlineChevronDown className="text-xl" />
-              </button>
+                <div className="p-3">
+                  <div className="text-center bg-[#346250]">
+                    <button type="submit" className="text-white p-1">
+                      Sign In
+                    </button>
+                  </div>
+                  <div className="text-center ">
+                    <button type="submit" className="text-[12px] underline">
+                      <a href="#/">Create an account</a>
+                    </button>
+                  </div>
+                </div>
+                <hr />
+                <li>
+                  <a href="#/">Manage Account</a>
+                </li>
+                <li>
+                  <a href="#/">Order Status</a>
+                </li>
+                <li>
+                  <a href="#/">Payment Methods</a>
+                </li>
+              </ul>
             </div>
 
             {/* wishlist */}
@@ -78,12 +108,12 @@ const Navbar = () => {
                 className="text-[14px] flex flex-row justify-center items-center gap-2"
               >
                 <FcLikePlaceholder className="text-3xl" />
-                <span>WISHLIST</span>
+                WISHLIST
               </button>
             </div>
 
             {/* shopping cart */}
-            <div className="items-cente">
+            <div className="items-cente mr-4">
               <button type="submit" className="flex flex row relative">
                 <AiOutlineShoppingCart className="text-3xl" />
                 <div class="inline-flex absolute -top-2 -right-2 justify-center items-center w-6 h-6 text-xs font-bold text-white bg-[#54575a] rounded-full border-2 border-white dark:border-gray-900">
@@ -94,7 +124,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Second section of navigatio bar  */}
+        {/* -----------------Second section of navigatio bar-------------------*/}
         <div className="py-3">
           <nav>
             <ul className="flex justify-between items-center text-center">
@@ -132,7 +162,7 @@ const Navbar = () => {
                 <a href="#/">Stationary & Gifts</a>
               </li>
               <li>
-                <a href="#">Music & Movies</a>
+                <a href="#/">Music & Movies</a>
               </li>
             </ul>
           </nav>
