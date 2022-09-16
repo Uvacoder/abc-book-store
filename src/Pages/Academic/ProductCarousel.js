@@ -43,7 +43,7 @@ const ProductCarousel = () => {
         <>
           <div className="card mb-3" key={book._id}>
             <div className="card-img">
-              <img src={book.img} alt="" />
+              <img src={book.img} alt="" className="h-full w-full" />
             </div>
             <div className="card-info">
               <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
