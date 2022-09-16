@@ -29,13 +29,14 @@ const AddIndividualsReview = () => {
                         <h1>Sourcebooks - Court of the Vampire Queen (B&N Exclusive Edition)</h1>
                     </div>
                 </div>
-                <div className="Review-Form basis-2/3 pt-3 h-full w-full relative mb-3 bg-pink-100">
 
-                    <div className="text-right w-full absolute right-6">
+                <div className="Review-Form basis-2/3 h-full w-full relative bg-pink-100">
+
+                    <div className="text-right w-full bg-white absolute pr-5 mt-4">
                     <button className=' '><ImCross></ImCross></button>
                     </div>
 
-                    <div className="bg-white mb-3 w-full mt-5">
+                    <div className="bg-white pb-3 w-full pt-8">
                     <h1 className='text-xl font-semibold'>My Review for Court of the Vampire Queen (B&N Exclusive Edition)</h1>
                     <h1 className='text-sm mt-2'>Required fields are marked with *</h1>
                     </div>
@@ -51,7 +52,7 @@ const AddIndividualsReview = () => {
               return (
                 <AiFillStar
                 key={i} 
-                className={`w-8 cursor-pointer ${currentValue > i ? 'text-yellow-400' : 'text-gray-200'}`}
+                className={`w-4 text-xl cursor-pointer ${currentValue > i ? 'text-pink-600' : 'text-gray-300'}`}
                 onClick={() => handleClick(i+1)}
                 />
               )
@@ -59,13 +60,13 @@ const AddIndividualsReview = () => {
           }
 
 
-                        <div className="rating rating-md ">
+                        {/* <div className="rating rating-md ">
                         <input type="radio" name="rating-1" className="mask mask-star focus:bg-pink-600" />
                         <input type="radio" name="rating-2" className="mask mask-star focus:bg-pink-600" />
                         <input type="radio" name="rating-3" className="mask mask-star focus:bg-pink-600" />
                         <input type="radio" name="rating-4" className="mask mask-star focus:bg-pink-600" />
                         <input type="radio" name="rating-5" className="mask mask-star focus:bg-pink-600" />
-                      </div>
+                      </div> */}
                 </div>
 
                   <div className="flex">
