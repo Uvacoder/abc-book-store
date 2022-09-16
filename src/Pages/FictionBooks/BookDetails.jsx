@@ -8,9 +8,8 @@ import { FiTruck } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const BookDetails = () => {
-
 const priceRange=[
-  { name:'Hancover',price:'12.00$'},
+  { name:'Handover',price:'12.00$'},
   { name:'E-book',price:'20.00$'},
   { name:'Audio-book',price:'14.00$'},
   { name:'large-print',price:'24.00$'},
@@ -37,13 +36,9 @@ const priceRange=[
               </div>
             </div>
           </div>
-
           {/* ....///...... content-section  ....... .....//// */}
-
           <div className="Details-content flex-2/4 px-5 md:px-10 lg:px-0">
-            <h1 className="text-2xl font-semibold mb-1">
-              The First to Die at the End (B&N Exclusive Edition)
-            </h1>
+            <h1 className="text-2xl font-semibold mb-1">The First to Die at the End</h1>
             <p className="">
               By <span className="hover:underline text-sm">Adam Silvera</span>
             </p>
@@ -57,12 +52,10 @@ const priceRange=[
               </div>
               <h1>4.3(6)</h1>
             </div>
-
             <div className="border border-gray-50 mt-4 mb-1">
               <hr />
             </div>
             <p className="font-bold text-[14px]">Hardcover</p>
-
             <div className="price flex items-center space-x-2 my-2 lg:my-0">
               <h1 className="text-3xl font-bold">$24.99</h1>
               <div className=" space-x-2 flex items-center">
@@ -70,7 +63,6 @@ const priceRange=[
                 <h1 className="text-pink-600 font-semibold">Save 11%</h1>
               </div>
             </div>
-
             <div className="price-range">
               <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 lg:gap-2 ">
                 {priceRange.map((priceBox) => {
@@ -96,46 +88,31 @@ const priceRange=[
               <Link to="/" className="text-sm font-medium hover:underline">
                 Ship This Item — Qualifies for Free Shipping
               </Link>
-              <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700">
-                {" "}
-                <BsExclamation></BsExclamation>{" "}
-              </button>
+              <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700"><BsExclamation></BsExclamation></button>
             </div>
-
             <div className="leading-none">
               <div className="flex items-center space-x-3">
                 <input type="checkbox" />
                 <Link to="/" className="text-sm hover:underline">
                   Buy Online, Pick up in Store
                 </Link>
-                <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700">
-                  {" "}
-                  <BsExclamation></BsExclamation>{" "}
-                </button>
+                <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700"><BsExclamation></BsExclamation></button>
               </div>
               <button className="text-green-800 hover:underline text-sm ml-5">
                 Check Availability at Nearby Stores
               </button>
             </div>
-
             <div className="btn-groups flex md:flex-row flex-col md:space-x-3 my-4 space-y-3 md:space-y-0">
               <button className="py-2 px-8 bg-blue-700 uppercase font-medium text-white hover:bg-opacity-80">
                 Pre-Order
               </button>
               <button className="py-2 px-8 border border-1 border-black hover:text-white hover:bg-black font-medium">
-                Sign In To Purches Instantly
+                Sign In To Purchase Instantly
               </button>
             </div>
-
             <div className="flex items-center space-x-2">
-              <button className="text-xl">
-                {" "}
-                <FiTruck></FiTruck>{" "}
-              </button>
-              <p className="text-sm">
-                Available for Pre-Order. This item will be available on{" "}
-                <span className="font-semibold">September 20, 2022</span>{" "}
-              </p>
+              <button className="text-xl"><FiTruck></FiTruck></button>
+              <p className="text-sm">Available for Pre-Order. This item will be available on<span className="font-semibold">September 20, 2022</span></p>
             </div>
           </div>
         </div>
