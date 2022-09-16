@@ -1,5 +1,5 @@
 import React from "react";
-import BookDetails from "../../components/Books/BookDetails";
+import BookDetails from "../Books/BookDetails";
 import TopCarousel from "./TopCarousel";
 
 const Home = () => {

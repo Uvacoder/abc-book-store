@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import authorImg from "../../../assets/images/Author.jpg";
 const AboutAuthor = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   const [hidden, setHidden] = useState("overflow-hidden h-[302px]");
   const handleHidden = () => {
     setHidden("overflow-hidden h-[302px]");
@@ -11,6 +12,7 @@ const AboutAuthor = () => {
     setHidden(" ");
     setIsOpen(false);
   };
+
   return (
     <div>
       <h2 className="text-3xl text-center py-5">About the author</h2>
@@ -19,7 +21,7 @@ const AboutAuthor = () => {
           <img className="w-[200px] ml-[35px]" src={authorImg} alt="" />
         </div>
 
-        <article className={`w-2/3   p-12 ${hidden} transition`}>
+        <article ona className={`w-2/3   p-12 ${hidden} `}>
           Born and raised in Southern California, Brit Bennett graduated from
           Stanford University and later earned her MFA in fiction at the
           University of Michigan. Her debut novel, The Mothers, was a New York
