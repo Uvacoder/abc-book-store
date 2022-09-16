@@ -14,7 +14,7 @@ const MainHeader = () => {
       </div>
       <SignUp />
       <SearchBar />
-      <DropDown/>
+      <DropDown />
     </>
   );
 };
