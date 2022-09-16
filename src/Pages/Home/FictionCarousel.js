@@ -46,7 +46,9 @@ const FictionCarousel = () => {
               <img src={book.img} alt="" />
             </div>
             <div class="card-info">
-              <p class="title text-base">{book.title}</p>
+              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+                Quick Add
+              </button>
             </div>
           </div>
         </>
