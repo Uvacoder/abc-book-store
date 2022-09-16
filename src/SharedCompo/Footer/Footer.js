@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
       <div>
-        <section className="bg-[#54575a]">
+        <section className="bg-[#545f89]">
           <div className="text-center">
             <h3 className="text-3xl mb-3 text-gray-50 pt-4"> Download Our App</h3>
             <p className='text-gray-100'>Read at least Three page of a Book every day. </p>
             <div className="flex justify-center my-6">
+            <a href='https://play.google.com/store/apps/details?id=bn.ereader&referrer=utm_fiksu_adid%3D698782%26'>
               <div className="flex items-center border sm:w-auto rounded-lg px-4 py-2 w-52 mx-2">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
@@ -19,8 +20,10 @@ const Footer = () => {
                 <div className="text-left ml-3">
                   <p className="text-sm">Download on </p>
                   <p className="text-sm md:text-base">Play Store </p>
-                </div>
+                </div>               
               </div>
+              </a>
+              <a href="https://apps.apple.com/us/app/id373582546">
               <div className="flex items-center border sm:w-auto rounded-lg px-4 py-2 w-44 mx-2">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/888/888841.png"
@@ -32,6 +35,7 @@ const Footer = () => {
                   <p className="text-sm md:text-base"> Apple Store </p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
           <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">

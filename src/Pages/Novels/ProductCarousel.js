@@ -3,9 +3,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "./fiction.css"
+import "../Home/fiction.css"
 
-const FictionCarousel = () => {
+const ProductCarousel = () => {
   const url = "https://books-store-server.vercel.app/api/v1/books/fictions";
     const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
 
@@ -41,7 +41,7 @@ const FictionCarousel = () => {
     >
       {Books.map((book) => (
         <>
-          <div className="card" key={book._id}>
+          <div className="card mb-3" key={book._id}>
             <div className="card-img">
               <img src={book.img} alt="" />
             </div>
@@ -57,4 +57,4 @@ const FictionCarousel = () => {
   );
 };
 
-export default FictionCarousel;
+export default ProductCarousel;
