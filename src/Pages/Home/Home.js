@@ -1,5 +1,6 @@
 import React from "react";
 import BookDetails from "../Books/BookDetails";
+import ContactUs from "../ContactUsForm/ContactUs";
 import TopCarousel from "./TopCarousel";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <TopCarousel />
       <BookDetails />
+      <ContactUs />
     </div>
   );
 };
