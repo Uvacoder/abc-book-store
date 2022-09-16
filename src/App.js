@@ -12,6 +12,7 @@ import KidsMain from "./Pages/Kids/KidsMain";
 import NovelMain from "./Pages/Novels/NovelMain";
 import StationaryMain from "./Pages/Stationary/StationaryMain";
 import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
+import Footer from "./SharedCompo/Footer/Footer";
 import Navbar from "./SharedCompo/Header/Navbar";
 
 function App() {
@@ -31,8 +32,9 @@ function App() {
         <Route path="/toysGames" element={<ToysGamesMain/>} />
         <Route path="/stationary" element={<StationaryMain/>} />
       </Routes>
-      <ToastContainer />
+      <Footer/>
     </div>
   );
 }
+<ToastContainer />
 export default App;
