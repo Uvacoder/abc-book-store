@@ -1,11 +1,12 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "./Signin.css";
 
 const Signin = () => {
+  const navigate = useNavigate();
   const [err, setErr] = useState("");
 
   const {
@@ -31,6 +32,11 @@ const Signin = () => {
         // navigate("/login");
       });
   };
+
+  const handleCreateAccount = () =>{
+    navigate("/register");
+    console.log("register")
+  }
 
   return (
     <div className="container mx-auto">
@@ -111,6 +117,7 @@ const Signin = () => {
           <button
             type="submit"
             className=" py-[.69rem] w-full text-black outline-1 border border-black hover:bg-slate-200 mb-6"
+            onClick={()=>handleCreateAccount()}
           >
             Create an Account
           </button>
