@@ -1,42 +1,25 @@
 import React from "react";
 import "./Style/custom.css";
-<<<<<<< HEAD
-<<<<<<< HEAD:src/SharedCompo/Header.js
-// import Logo from "../Assets/Images/logo.png";
-=======
-<<<<<<< HEAD:src/SharedCompo/Header.js
-import Logo from "../assets/images/logo.png";
-
-=======
 import Logo from "../../Assets/Images/logo.png";
->>>>>>> b8c0222c205799a3ce2964c5e32cb8f7c8078b4a:src/SharedCompo/Header/Style/Header.js
->>>>>>> c900d46895ad3ee02e4909142481b63d2ce22eb1:src/SharedCompo/Header/Style/Header.js
-=======
-import Logo from "../../Assets/Images/logo.png";
->>>>>>> 82f136e6be7205a0ff064c13159c2a2025a1b1a8
 import { FaShoppingCart } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import TopOffer from "./TopOffer";
 
-const Header = () => {
+const TestHeader = () => {
   return (
     <div>
       <div className="bg-[#3e5962]">
         <div className="w-3/5 my-auto mx-auto">
-<<<<<<< HEAD:src/SharedCompo/Header.js
-          <marquee className="p-2 font-bold text-[#fff]" behavior="scroll" direction="left"> BUY 1, GET 1 50% OFF BOOKS FOR ALL AGES</marquee>
-=======
           <TopOffer/>
->>>>>>> c900d46895ad3ee02e4909142481b63d2ce22eb1:src/SharedCompo/Header/Style/Header.js
         </div>
       </div>
       <div className="flex">
         <div className="mx-auto my-auto w-4/12 flex">
-          {/* <img
+          <img
             className="m-2 mr-4 max-h-16 w-auto hover:border-b-green-500 duration-200"
             src={Logo}
             alt="Logo"
-          /> */}
+          />
           <h1 className="text-2xl my-auto">The House of Books</h1>
         </div>
         <div className="w-1/2 flex mx-auto my-auto">
@@ -89,4 +72,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default TestHeader;
