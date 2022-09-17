@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
-import img from "../../../src/assets/images/book.jpg";
+import img from "../../Assets/Images/audio-books.jpg";
 import { AiFillStar } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { useForm } from "react-hook-form";
