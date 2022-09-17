@@ -12,6 +12,7 @@ import KidsMain from "./Pages/Kids/KidsMain";
 import NovelMain from "./Pages/Novels/NovelMain";
 import StationaryMain from "./Pages/Stationary/StationaryMain";
 import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
+import BottomToTop from "./SharedCompo/BottomToTop/BottomToTop";
 import Footer from "./SharedCompo/Footer/Footer";
 import Navbar from "./SharedCompo/Header/Navbar";
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <BottomToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<BooksMain />} />

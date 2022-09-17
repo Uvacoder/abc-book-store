@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import Carousel from 'react-multi-carousel';
-import './Review.css'
+// import './Review.css'
 // import 'react-multi-carousel/lib/styles.css';
 import { AiFillStar } from 'react-icons/ai';
 
