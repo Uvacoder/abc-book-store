@@ -6,7 +6,7 @@ import { ImCross } from "react-icons/im";
 import { useForm } from "react-hook-form";
 
 const AddIndividualsReview = () => {
-  const [currentValue, setCurrentValue] = useState(0);
+  const [currentValue, setCurrentValue] = useState(2);
   const stars = Array(5).fill(0);
 
   const handleClick = (value) => {
@@ -20,21 +20,22 @@ const AddIndividualsReview = () => {
     watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data,currentValue) => {
+  const onSubmit = (data) => {
     console.log(data);
     console.log(currentValue);
   };
   return (
     <>
-      <div className="h-screen w-full mx-auto bg-slate-200 relative">
-        <div className=" bg-white w-10/12 md:w-9/12 lg:w-8/12 absolute mt-10 mx-auto inset-0 shadow-lg">
-          <div className="text-right w-full bg-white p-2">
-            <button className=" ">
-              <ImCross></ImCross>
-            </button>
-          </div>
-          <div className="flex flex-col lg:flex-row h-full">
-            <div className="Review-Book basis-1/3 w-full p-2 pr-0 h-full mx-auto">
+      <div className="h-screen w-full  bg-slate-200 flex items-center">
+        <div className="relative  bg-white  max-w-4xl mx-auto z-10 shadow-lg">
+          {/* <div className="text-right w-full bg-white p-2"> */}
+
+          <button className="absolute z-20 right-3 top-3">
+            <ImCross></ImCross>
+          </button>
+
+          <div className="flex flex-col lg:flex-row h-full items-stretch">
+            <div className="Review-Book basis-1/3 w-full pl-2 py-10 pr-0 h-full mx-auto">
               <img
                 className=" mx-auto h-3/4 w-8/12 md:w-9/12 lg:w-11/12"
                 src={img}
@@ -47,9 +48,8 @@ const AddIndividualsReview = () => {
               </div>
             </div>
 
-            <div className="Review-Form basis-2/3 h-full overflow-hidden w-full relative lg:bg-pink-100 px-5 md:px-10 lg:px-0">
-             
-              <div className="bg-white pb-3 w-full">
+            <div className="Review-Form items-stretch flex flex-col h-full overflow-hidden w-full relative lg:bg-pink-100 pb-10 px-5 md:px-10 lg:px-0">
+              <div className="bg-white pb-3 w-full pt-10">
                 <h1 className="text-xl font-semibold">
                   My Review for Court of the Vampire Queen (B&N Exclusive
                   Edition)
@@ -58,53 +58,43 @@ const AddIndividualsReview = () => {
                   Required fields are marked with *
                 </h1>
               </div>
+              <div className="bg-slate-50 border-y py-4 flex space-x-4 items-center mb-3">
+                <h2 className="text-sm font-medium">Overall Rating*</h2>
+                {stars.map((e, i) => {
+                  return (
+                    <AiFillStar
+                      key={i}
+                      className={`w-4 text-xl cursor-pointer ${
+                        currentValue > i ? "text-pink-600" : "text-gray-300"
+                      }`}
+                      onClick={() => handleClick(i + 1)}
+                    />
+                  );
+                })}
+              </div>
 
-              <form className="" onSubmit={handleSubmit(onSubmit)}>
-                <div className="bg-slate-50 border-y py-4 flex space-x-4 items-center">
-                  <h2 className="text-sm font-medium">Overall Rating*</h2>
-                  {stars.map((e, i) => {
-                    return (
-                      <AiFillStar
-                        key={i}
-                        className={`w-4 text-xl cursor-pointer ${
-                          currentValue > i ? "text-pink-600" : "text-gray-300"
-                        }`}
-                        onClick={() => handleClick(i + 1)}
-                      />
-                    );
-                  })}
-                </div>
-
-                <div className="flex">
+              <form className="max-w-lg" onSubmit={handleSubmit(onSubmit)}>
+                <div className="flex w-full mx-3 gap-2 mb-3">
                   <input
-                    className="input-bordered border border-1 m-3 outline-0 focus:border-pink-600 py-3 px-6 placeholder-black "
+                    className="input-bordered border border-1 outline-0 focus:border-pink-600 py-3 px-2 placeholder-black w-full "
                     defaultValue=""
                     {...register("Email")}
                     placeholder="Email"
                     type="email"
                   />
                   <input
-                    className="input-bordered border border-1 m-3 py-3 outline-0 focus:border-pink-600 px-6 placeholder-black "
+                    className="input-bordered border border-1  py-3 outline-0 focus:border-pink-600 px-2 placeholder-black w-full "
                     defaultValue=""
                     {...register("User Name", { required: true })}
                     placeholder="Your Name*"
                     type="text"
                   />
-
-                  {/* <input
-                    className="input-bordered border border-1 m-3 py-3 outline-0 focus:border-pink-600 px-6 placeholder-black "
-                    value={currentValue}
-                    {...register("Rating", { required: true })}
-                    placeholder="rating*"
-                    type="text"
-                  /> */}
                 </div>
                 <div className="">
                   <textarea
-                    className="input-bordered border border-1 mx-3 my-2 py-3 outline-0 focus:border-pink-600 px-6 placeholder-black "
+                    className="input-bordered border border-1 mx-3 my-2 py-3 outline-0 focus:border-pink-600 px-6 w-full placeholder-black "
                     placeholder="Your Review*"
                     {...register("Your Review", { required: true })}
-                    cols="58"
                     rows="5"
                   ></textarea>
                 </div>

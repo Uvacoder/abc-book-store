@@ -98,3 +98,27 @@ const Review = () => {
   )
 }
 export default Review
+
+
+
+// [
+//   {
+//     title: "",
+//     author: "",
+//     publication: "",
+//     description: "",
+//     img: "",
+//     price: ,
+//     stock: ,
+//     discount: ,
+//     rating: ,
+//     reviews: [
+//       {
+//         userEmail: "",
+//         name: "",
+//         review: "",
+//         rating: ,
+//       },
+//     ],
+//   },
+// ];
