@@ -19,11 +19,11 @@ const ProductCarousel = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 1,
     },
   };
   return (
@@ -41,7 +41,7 @@ const ProductCarousel = () => {
     >
       {Books.map((book) => (
         <>
-          <div className="card mb-3" key={book._id}>
+          <div className="card mb-3 p-4" key={book._id}>
             <div className="card-img">
               <img src={book.img} alt="" className="h-full w-full" />
             </div>

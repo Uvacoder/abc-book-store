@@ -48,3 +48,30 @@ export const carouselOffer = [
   },
 ];
 
+
+export const specialSection = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/0Vyssp1/BOGO.png",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/BVJ5Dm3/COMING-SOON.png",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/ct94NHs/Fav-Book-HOME.png",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/P5QbG72/NEW-RELEASES.png",
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co/82NRny1/OMP.png",
+  },
+  {
+    id: 6,
+    img: "https://i.ibb.co/HY5mRw1/SIGNED-BOOKS.png",
+  },
+];
