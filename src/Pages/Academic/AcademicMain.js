@@ -4,17 +4,17 @@ import ProductCarousel from './ProductCarousel';
 const AcademicMain = () => {
     return (
       <div className="pt-2 pb-2">
-        <h1 className="m-2 text-center text-2xl text-gray-900">
+        <div className="divider font-bold text-2xl m-2 text-gray-900">
           Top Rated Academic Books
-        </h1>
+        </div>
         <ProductCarousel />
-        <h1 className="m-2 text-center text-2xl text-gray-900">
+        <div className="divider font-bold text-2xl m-2 text-gray-900">
           New Arrivals Books
-        </h1>
+        </div>
         <ProductCarousel />
-        <h1 className="m-2 text-center text-2xl text-gray-900">
+        <div className="divider font-bold text-2xl m-2 text-gray-900">
           All Academic Books
-        </h1>
+        </div>
         <ProductCarousel />
       </div>
     );

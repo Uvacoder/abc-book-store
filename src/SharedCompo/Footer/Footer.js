@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-      <div>
+      <div className='grid grid-cols-1'>
         <section className="bg-[#545f89]">
           <div className="text-center">
             <h3 className="text-3xl mb-3 text-gray-50 pt-4"> Download Our App</h3>
             <p className='text-gray-100'>Read at least Three page of a Book every day. </p>
             <div className="flex justify-center my-6">
             <a href='https://play.google.com/store/apps/details?id=bn.ereader&referrer=utm_fiksu_adid%3D698782%26'>
-              <div className="flex items-center border sm:w-auto rounded-lg px-4 py-2 w-52 mx-2">
+              <div className="md:flex items-center border sm:w-auto rounded-lg px-4 py-2 w-52 mx-2">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
                   className="w-7 md:w-8"
@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               </a>
               <a href="https://apps.apple.com/us/app/id373582546">
-              <div className="flex items-center border sm:w-auto rounded-lg px-4 py-2 w-44 mx-2">
+              <div className="md:flex items-center border sm:w-auto rounded-lg px-4 py-2 w-44 mx-2">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/888/888841.png"
                   className="w-7 md:w-8"

@@ -4,11 +4,11 @@ import ProductCarousel from './ProductCarousel';
 const FictionMain = () => {
     return (
         <div className='pt-2 pb-2'>
-            <h1 className='m-2 text-center text-2xl text-gray-900'>Top Rated Fiction Books</h1>
+            <div className="divider font-bold text-2xl m-2 text-gray-900">Top Rated Fiction Books</div>
             <ProductCarousel/>
-            <h1 className='m-2 text-center text-2xl text-gray-900'>New Arrivals Books</h1>
+            <div className="divider font-bold text-2xl m-2 text-gray-900">New Arrivals Books</div>
             <ProductCarousel/>
-            <h1 className='m-2 text-center text-2xl text-gray-900'>All Fiction Books</h1>
+            <div className="divider font-bold text-2xl m-2 text-gray-900">Top Rated Fiction Books</div>
             <ProductCarousel/>
         </div>
     );
