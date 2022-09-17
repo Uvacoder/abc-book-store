@@ -20,7 +20,7 @@ const BottomToTop = () => {
         <div>
             {scrollTop && (
                 <button onClick={scrollUp} className='fixed bottom-10 right-14 bg-gray-900 w-10 h-10 rounded-full'>
-                    <GiBookStorm className='text-white text-xl relative left-2.5' />
+                    <GiBookStorm className='text-white text-xl relative left-2.5 top-0.5' />
                 </button>
             )}
         </div>

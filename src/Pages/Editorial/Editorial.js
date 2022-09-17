@@ -13,7 +13,7 @@ const Editorial = () => {
                 <div className='text-center'>
                     <h1 className='text-2xl font-[ubuntu] py-3'>Editorial Reviews</h1>
                 </div>
-                <div className='text-sm text-center px-52'>
+                <div className='text-sm text-center'>
                     <div>
                         <p>
                             A New York Times Bestseller <br />
