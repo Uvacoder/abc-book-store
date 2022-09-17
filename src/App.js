@@ -10,9 +10,11 @@ import FictionMain from "./Pages/FictionBooks/FictionMain";
 import Home from "./Pages/Home/Home";
 import KidsMain from "./Pages/Kids/KidsMain";
 import NovelMain from "./Pages/Novels/NovelMain";
+// import Signin from "./Pages/Signin/Signin";
 import StationaryMain from "./Pages/Stationary/StationaryMain";
 import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
 import Navbar from "./SharedCompo/Header/Navbar";
+// import Signup from "./Pages/Singup/Signup"
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/audioBooks" element={<AudioBooksMain/>} />
         <Route path="/toysGames" element={<ToysGamesMain/>} />
         <Route path="/stationary" element={<StationaryMain/>} />
+        {/* <Route path="/signin" element={<Signin/>}/>
+        <Route path="/signup" element={<Signup/>}/> */}
       </Routes>
       <ToastContainer />
     </div>

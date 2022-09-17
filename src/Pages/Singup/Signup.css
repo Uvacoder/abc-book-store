@@ -45,3 +45,67 @@
   .inputGroup :is(input:focus, input:valid) {
     border-color: rgb(150, 150, 200);
   }
+
+  .inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    /* margin: 1em 0 1em 0; */
+    max-width: 500px;
+    position: relative;
+    
+  }
+  
+.inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 2px;
+    width: 100%;
+  }
+  
+.inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+.inputGroup :is(input:focus)~label {
+    -webkit-transform: translateY(-50%) scale(.9);
+        -ms-transform: translateY(-50%) scale(.9);
+            transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    border-radius: 2px;
+    background-color: #e8e8e8;
+  }
+  
+.inputGroup :is(input:focus) {
+    border-color: rgb(150, 150, 200);
+  }
+
+.signIn-btn{
+    background:#254D3E;
+ 
+}
+.checkbox-text{
+    color: #254D3E!important;
+}
+.secure-signIn-btn{
+    background-color: #254D3E!important;
+    transition: .4s;
+}
+.secure-signIn-btn:hover{
+    background-color: #fff!important;
+    color: black;
+    border: 1px solid black;
+}
+
+
