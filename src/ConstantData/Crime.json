@@ -11,8 +11,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "alamin@gmail.com",
         "name": "Al Amin Khan",
-        "review": "This is a great book"
+        "review": "This is a great book",
+        "rating": "4"
       }
     ]
   },
@@ -28,8 +30,10 @@
     "rating": 4,
     "reviews": [
       {
+        "userEmail": "john@gmail.com",
         "name": "John Doe",
-        "review": "Faboules"
+        "review": "Faboules",
+        "rating": "4"
       }
     ]
   },
@@ -45,8 +49,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "shahriyar@gmail.com",
         "name": "Shahriyar",
-        "review": "What a trill!!"
+        "review": "What a trill!!",
+        "rating": "4"
       }
     ]
   },
@@ -62,8 +68,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "nafiz@gmail.com",
         "name": "Nafiz",
-        "review": "This is Ok"
+        "review": "This is Ok",
+        "rating": "4"
       }
     ]
   },
@@ -79,8 +87,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "mishal@gmail.com",
         "name": "Mishal",
-        "review": "One of the best Mystery book i have ever read"
+        "review": "One of the best Mystery book i have ever read",
+        "rating": "4"
       }
     ]
   },
@@ -96,8 +106,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "zabed@gmail.com",
         "name": "Zabed",
-        "review": "Awesome, recommended"
+        "review": "Awesome, recommended",
+        "rating": "3"
       }
     ]
   },
@@ -113,8 +125,10 @@
     "rating": 3,
     "reviews": [
       {
+        "userEmail": "iqbal@gmail.com",
         "name": "Iqbal",
-        "review": "Goofy story, Not my type"
+        "review": "Goofy story, Not my type",
+        "rating": "5"
       }
     ]
   },
@@ -130,8 +144,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "enam@gmail.com",
         "name": "Enam",
-        "review": "What a twist!!"
+        "review": "What a twist!!",
+        "rating": "4"
       }
     ]
   },
@@ -147,8 +163,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "tousif@gmail.com",
         "name": "Tousif",
-        "review": "Nice , gotta read it again"
+        "review": "Nice , gotta read it again",
+        "rating": "4"
       }
     ]
   },
@@ -164,8 +182,10 @@
     "rating": 5,
     "reviews": [
       {
+        "userEmail": "finn@gmail.com",
         "name": "Finnn",
-        "review": "this book is awesome"
+        "review": "this book is awesome",
+        "rating": "4"
       }
     ]
   }
