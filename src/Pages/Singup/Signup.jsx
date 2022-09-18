@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Signup.css";
-// import { useAddUser } from "../../hooks/useUserHook";
 import axios from "axios";
 
 const Singup = ({ open, setOpen }) => {
   const [err, setErr] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const {
     register,
@@ -28,19 +30,22 @@ const Singup = ({ open, setOpen }) => {
       })
       .then(() => {
         console.log("user is registered!");
-        // navigate("/login");
+        navigate("/");
+        setOpen(false);
       })
       .catch((error) => {
         setErr(error.response.data);
-
         // navigate("/register");
+        setOpen(true);
       });
 
     reset();
   };
 
-  const signinSubmit = (data) => {
-    const { email, password } = data;
+  
+  const hadnleSignin = () => {
+    
+    console.log(email, password);
     axios
       .post("http://localhost:5000/api/v1/login", { email, password })
       .then((user) => {
@@ -49,17 +54,15 @@ const Singup = ({ open, setOpen }) => {
         console.log(user);
         console.log("user is successfully login!");
         // navigate("/profile");
+        setOpen(true);
       })
       .catch((error) => {
         setErr(error.response.data.message);
         console.log(error.response.data);
-        // navigate("/login");
-        reset();
+        setOpen(false);
+        
       });
-
   };
-
- 
 
   return (
     <>
@@ -204,67 +207,34 @@ const Singup = ({ open, setOpen }) => {
           </div>
         </div>
       ) : (
-        // Singni form
+        // Singnin form
         <div className="container mx-auto">
           <div className="bg-white border flex items-center shadow-md p-7">
             <div className="w-50">
-              <h2 className="text-[14px] font-semibold mb-5">
+              <h2 className="text-[23px] font-semibold mb-5">
                 Sign in or Create an Account
               </h2>
 
-              <forms
-                onSubmit={handleSubmit(signinSubmit)}
-                className="w-full space-y-6 mb-6"
-              >
+              <forms className="w-full space-y-6 mb-6">
                 <div className="inputGroup">
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    {...register("email", {
-                      pattern: {
-                        value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-                        message: "Provide a valid Email",
-                      },
-                      required: {
-                        value: true,
-                        message: "Email is required",
-                      },
-                    })}
-                  />
-
-                  <label htmlFor="email">Email Address</label>
+                  <input type="email" name="email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
+                  <label htmlFor="email">Email </label>
                 </div>
 
-                {errors.email?.type === "pattern" && (
-                  <p className="text-black text-center">
-                    {errors.email.message}
-                  </p>
-                )}
-                {errors.email?.type === "required" && (
-                  <p className="text-black text-center">
-                    {errors.email.message}
-                  </p>
-                )}
-
                 <div className="inputGroup">
-                  <input
-                    type="password"
-                    name="password"
-                    required
-                    {...register("password", { required: true })}
-                  />
-
+                  <input type="password" name="password" value={password} onChange={(e)=>setPassword(e.target.value)} required />
                   <label htmlFor="password">Password</label>
                 </div>
 
                 {err ? <p>{err}</p> : ""}
 
-                <input
+                <button
                   type="submit"
                   className="secure-signIn-btn py-[.69rem] w-full bg-[#54575a] cursor-pointer text-white rounded-sm"
-                  value="Secure Sign In"
-                />
+                  onClick={() => hadnleSignin()}
+                >
+                  Secure Signin
+                </button>
               </forms>
 
               <div className="checkbox-forgot flex justify-between mb-6">
