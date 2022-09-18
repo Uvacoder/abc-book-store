@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <TopCarousel />
-      <BookDetails />
+      {/* <BookDetails /> */}
     </div>
   );
 };

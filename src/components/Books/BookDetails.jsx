@@ -1,6 +1,5 @@
 import React from 'react'
-import './Book.css'
-import img from '../../assets/images/book.jpg'
+import img from '../../assets/images/Author.jpg'
 import { FaHeart } from 'react-icons/fa';
 import { AiFillStar } from 'react-icons/ai';
 import { BsStarHalf,BsExclamation } from 'react-icons/bs';
