@@ -8,7 +8,7 @@ const AudioBooksMain = () => {
     <div className="mb-20">
       <h1 className="text-2xl font-semibold text-center my-8"> Audio Books </h1>
 
-      <section className="top-banner mb-10 ">
+      <section className="banner mb-10 ">
         <div className="banner-content flex h-full justify-center items-center relative">
           <div className="text-center">
             <h1 className="text-2xl font-semibold text-gray-100 mb-4 ">

@@ -7,6 +7,7 @@ const EbooksMain = () => {
       <div className="mb-20">
       <h1 className="text-2xl font-semibold text-center my-8"> E-Book Books </h1>
 
+      <div className="">
       <section className="top-banner mb-10 ">
         <div className="banner-content flex h-full justify-center items-center relative">
           <div className="text-center">
@@ -19,6 +20,7 @@ const EbooksMain = () => {
           </div>
         </div>
       </section>
+      </div>
 
       <section className=" mx-auto">
         <h1 className="text-2xl font-semibold text-center">
@@ -39,7 +41,7 @@ const EbooksMain = () => {
         <div className="divider my-10 text-2xl font-semibold px-20">
           Subscribe Today for Free
         </div>
-        <div className="flex flex-col px-5 lg:px-10 lg:flex-row">
+        <div className="flex flex-col-1 px-5 lg:px-10 lg:flex-row">
           <div className="">
             <p className="">
               Need inspiration on what to read this month? Discover the best
@@ -50,7 +52,9 @@ const EbooksMain = () => {
             </p>
           </div>
 
+          <div className="">
           <ProductCarousel></ProductCarousel>
+          </div>
         </div>
         <div className="text-right px-5 lg:px-20">
           <button className="text-sm font-medium text-pink-800 link">
@@ -58,6 +62,8 @@ const EbooksMain = () => {
           </button>
         </div>
       </section>
+
+
       <section>
         <div className="divider mt-10 text-2xl font-semibold px-5 lg:px-20">
           E-Books Coming Soon
