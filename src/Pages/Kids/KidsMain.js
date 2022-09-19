@@ -1,5 +1,5 @@
 import React from 'react';
-
+import KidsCarousel from './KidsCarousel';
 const KidsMain = () => {
   return (
     <div className='font-[roboto slab]'>
@@ -10,12 +10,12 @@ const KidsMain = () => {
         <p>Free shipping on orders of $40 or more</p>
       </div>
       <div className='text-center'>
-        <p className='text-4xl'>Kids’ Books</p>
+        <p className='text-3xl'>Kids’ Books</p>
         <p className='text-sm w-auto'>Discover the best children's books for kids of all ages including board books, picture books, book series, and chapter books.</p>
       </div>
       <div>
         <div className='m-8'>
-          <p className=' text-center text-lg font-bold'>Shop by Age</p>
+          <p className=' divider text-lg font-bold'>Shop by Age</p>
         </div>
         <div className='grid grid-cols-4 gap-x-28 m-10'>
           <img src="https://dispatch.barnesandnoble.com/content/dam/ccr/boutique/kids/shop-by-age/Ages_0-2_3x.jpg" alt="" />
@@ -23,6 +23,20 @@ const KidsMain = () => {
           <img src="https://dispatch.barnesandnoble.com/content/dam/ccr/boutique/kids/shop-by-age/Ages_6-8_3x.jpg" alt="" />
           <img src="https://dispatch.barnesandnoble.com/content/dam/ccr/boutique/kids/shop-by-age/Ages_9-12_3x.jpg" alt="" />
         </div>
+      </div>
+      <div className='m-4'>
+        <p className=' divider text-xl font-bold m-4'>Top rated Kids Books</p>
+        <KidsCarousel />
+      </div>
+
+      <div className='m-8'>
+        <p className=' divider text-xl font-bold m-4'>Top rated Kids Books</p>
+        <KidsCarousel />
+      </div>
+
+      <div className='m-8'>
+        <p className=' divider text-xl font-bold m-4'>Top rated Kids Books</p>
+        <KidsCarousel />
       </div>
     </div >
   );

@@ -9,6 +9,7 @@ import EbooksMain from "./Pages/E-Books/EbooksMain";
 import FictionMain from "./Pages/FictionBooks/FictionMain";
 import Home from "./Pages/Home/Home";
 import KidsMain from "./Pages/Kids/KidsMain";
+import KidSingle from "./Pages/Kids/KidSingle";
 import NovelMain from "./Pages/Novels/NovelMain";
 import StationaryMain from "./Pages/Stationary/StationaryMain";
 import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/novel" element={<NovelMain />} />
         <Route path="/crime" element={<CrimeMain />} />
         <Route path="/kids" element={<KidsMain />} />
+        <Route path="/kid/:bookId" element={<KidSingle />} />
         <Route path="/academic" element={<AcademicMain />} />
         <Route path="/ebooks" element={<EbooksMain />} />
         <Route path="/audioBooks" element={<AudioBooksMain />} />

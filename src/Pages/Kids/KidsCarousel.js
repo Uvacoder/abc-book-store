@@ -1,17 +1,26 @@
 import React from "react";
+import { BiLink } from "react-icons/bi";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
+import { Link } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
 import "../Home/fiction.css"
 
-const ProductCarousel = () => {
-  const url = "https://books-store-server.vercel.app/api/v1/books/fictions";
-    const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
+const KidsCarousel = () => {
 
-    if (isLoading) {
-      return <Loader/>
-    }
+  const url = `https://books-store-server.vercel.app/api/v1/books/kidBooks`;
+  const { isLoading, data: Books } = useQuery('Products', () => fetch(url)
+    .then((res) => res.json()
+      .catch((err) => {
+        console.log(err)
+      })));
+
+  console.log(Books)
+  if (isLoading) {
+    return <Loader />
+  }
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -43,18 +52,19 @@ const ProductCarousel = () => {
         <>
           <div className="card mb-3" key={book._id}>
             <div className="card-img">
-              <img src={book.img} alt="" />
+              <img src={book.img} alt="" className="w-full h-full" />
             </div>
             <div className="card-info">
-              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              <Link to={`/kid/${book._id}`} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                 Quick Add
-              </button>
+              </Link>
             </div>
           </div>
         </>
-      ))}
-    </Carousel>
+      ))
+      }
+    </Carousel >
   );
 };
 
-export default ProductCarousel;
+export default KidsCarousel;
