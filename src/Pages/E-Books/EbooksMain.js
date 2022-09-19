@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductCarousel from '../AudioBooks/ProductCarousel';
 import './Ebook.css'
+import EbookCarousel from './EbookCarousel';
 
 const EbooksMain = () => {
     return (
@@ -28,7 +28,7 @@ const EbooksMain = () => {
         </h1>
         <div className="divider"></div>
         <div className="mx-auto max-w-4xl">
-          <ProductCarousel></ProductCarousel>
+          <EbookCarousel/>
           <div className="text-right">
             <button className="text-sm font-medium text-pink-800 link">
               See More
@@ -53,7 +53,7 @@ const EbooksMain = () => {
           </div>
 
           <div className="">
-          <ProductCarousel></ProductCarousel>
+          <EbookCarousel/>
           </div>
         </div>
         <div className="text-right px-5 lg:px-20">
@@ -76,7 +76,7 @@ const EbooksMain = () => {
           exercising, and more.
         </p>
         <div className="mx-auto max-w-5xl">
-        <ProductCarousel></ProductCarousel>
+        <EbookCarousel/>
           <div className="text-right px-5 lg:px-20">
             <button className="text-sm font-medium text-pink-800 link">
               See More
