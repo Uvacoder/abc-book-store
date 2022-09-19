@@ -25,7 +25,8 @@ const ProductCarousel = () => {
       breakpoint: { max: 464, min: 0 },
       items: 2,
     },
-  };
+  }
+
   return (
     
       <Carousel
@@ -47,8 +48,8 @@ const ProductCarousel = () => {
               <img className="h-full w-full" src={book.img} alt="" />
             </div>
             <div className="card-info">
-              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
-                Quick Add
+              <button className="px-10 py-1 rounded-none font-medium rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+               Details
               </button>
             </div>
           </div>

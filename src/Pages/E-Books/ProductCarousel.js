@@ -2,6 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
+import { useNavigate } from "react-router-dom";
+
+
 import Loader from "../../SharedCompo/Loader/Loader";
 import "../Home/fiction.css"
 
@@ -26,6 +29,12 @@ const ProductCarousel = () => {
       items: 2,
     },
   };
+ const navigate = useNavigate();
+
+  const NavigateEbookDetails = id =>{
+    console.log(id);
+    navigate(`/ebooks/${id}`);
+}
   return (
     <Carousel
       responsive={responsive}
@@ -46,8 +55,8 @@ const ProductCarousel = () => {
               <img src={book.img} alt="" />
             </div>
             <div className="card-info">
-              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
-                Quick Add
+              <button onClick={()=>NavigateEbookDetails(book._id)} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              Details
               </button>
             </div>
           </div>
