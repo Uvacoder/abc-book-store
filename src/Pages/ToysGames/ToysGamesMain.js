@@ -5,9 +5,9 @@ import ToysCarousel from "./ToysCarousel";
 const ToysGamesMain = () => {
   return (
     <div>
-      <h1 className="text-3xl text-center m-4">
+      <div className="divider text-3xl font-bold">
         This is Toys &#38; Games Books routes
-      </h1>
+      </div>
       <ToysCarousel />
       <div className="divider text-3xl font-bold">you may choose</div>
 

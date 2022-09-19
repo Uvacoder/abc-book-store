@@ -13,6 +13,9 @@ const TopThreeSection = () => {
   if (isLoading) {
     return <Loader />;
   }
+  const handleProduct = (id) => {
+    console.log(id);
+  };
   return (
     <div className="flex justify-center g-4">
       <div
@@ -30,7 +33,10 @@ const TopThreeSection = () => {
                 <img className="h-full w-full" src={book.img} alt="" />
               </div>
               <div className="card-info">
-                <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+                <button
+                  onClick={() => handleProduct(book._id)}
+                  className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]"
+                >
                   Quick Add
                 </button>
               </div>

@@ -13,6 +13,7 @@ import NovelMain from "./Pages/Novels/NovelMain";
 import Signin from "./Pages/Signin/Signin";
 import Signup from "./Pages/Singup/Signup";
 import StationaryMain from "./Pages/Stationary/StationaryMain";
+import ProductDetails from "./Pages/ToysGames/ProoductDetails";
 import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
 import Footer from "./SharedCompo/Footer/Footer";
 import Navbar from "./SharedCompo/Header/Navbar";
@@ -32,6 +33,7 @@ function App() {
         <Route path="/ebooks" element={<EbooksMain />} />
         <Route path="/audioBooks" element={<AudioBooksMain />} />
         <Route path="/toysGames" element={<ToysGamesMain />} />
+        <Route path="/toysGames/:toysId" element={<ProductDetails />} />
         <Route path="/stationary" element={<StationaryMain />} />
       </Routes>
       <Footer />
