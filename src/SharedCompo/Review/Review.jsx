@@ -1,99 +1,48 @@
-import React from 'react'
-import { useEffect } from 'react';
-import { useState } from 'react'
-import Carousel from 'react-multi-carousel';
-import './Review.css'
-import 'react-multi-carousel/lib/styles.css';
-import { AiFillStar } from 'react-icons/ai';
+import React from "react";
+import { useQuery } from "react-query";
+import Loader from "../Loader/Loader";
 
 const Review = () => {
-    const [reviews,setReviews]= useState([]);
-     useEffect(()=>{
-        fetch('review.json')
-        .then(res=>res.json())
-        .then(data=>setReviews(data))
-     },[])
+  const url = "https://books-store-server.vercel.app/api/v1/reviews";
+  const CardImage = "https://i.ibb.co/ZgRb72c/audi-Books-BG.png";
+  const { isLoading, data: reviews } = useQuery("reviews", () =>
+    fetch(url).then((res) => res.json())
+  );
+
+  if (isLoading) {
+    return <Loader />;
+  }
   return (
     <div className="">
-        <h3 className='text-2xl font-semibold text-center my-8'>Our client review</h3>
-    <div className="max-w-4xl mx-auto my-32">
-    <Carousel
-  additionalTransfrom={0}
-  arrows
-  autoPlay
-  autoPlaySpeed={5000}
-  centerMode={false}
-  className=""
-  containerClass="container-with-dots"
-  dotListClass=""
-  draggable
-  focusOnSelect={false}
-  infinite
-  itemClass=""
-  keyBoardControl
-  minimumTouchDrag={80}
-  pauseOnHover
-  renderArrowsWhenDisabled={false}
-  renderButtonGroupOutside={false}
-  renderDotsOutside={false}
-  responsive={{
-    desktop: {
-      breakpoint: {
-        max: 3000,
-        min: 1024
-      },
-      items: 2,
-      partialVisibilityGutter: 40
-    },
-    mobile: {
-      breakpoint: {
-        max: 464,
-        min: 0
-      },
-      items: 1,
-      partialVisibilityGutter: 30
-    },
-    tablet: {
-      breakpoint: {
-        max: 1024,
-        min: 464
-      },
-      items: 1,
-      partialVisibilityGutter: 30
-    }
-  }}
-  rewind={false}
-  rewindWithAnimation={false}
-  rtl={false}
-  shouldResetAutoplay
-  showDots={false}
-  sliderClass=""
-  slidesToSlide={2}
-  swipeable
->
-{
-    reviews.map(singleReview => {
-        const {img,name,review}=singleReview;
-      return  <div class="review-card card card-side bg-base-100 rounded-0 mx-3 h-[200px] ">
-        <figure><img className='w-[150px] h-full' src={img} alt=""/></figure>
-        <div class="card-body w-full">
-            <div class="text-pink-800 flex text-xs">
-            <AiFillStar></AiFillStar> 
-            <AiFillStar></AiFillStar> 
-            <AiFillStar></AiFillStar> 
-            <AiFillStar></AiFillStar> 
-             </div>
-            <p className='text-sm text-gray-500'>{review}</p>
-            <div class="card-actions flex justify-end">
-           <p className='text-right text-sm'>By- <span className='text-xs font-bold '>{name}</span> </p>
+      <h1 className="text-3xl text-center m-4 sm:font-bold">Our clients Reviews</h1>
+      <div className="grid bg-none rounded-2xl md:grid-cols-3 sm:grid-cols-2 grid-cols-1 p-4 gap-x-2 gap-y-2">
+        {reviews.map((review) => (
+          <div key={review._id} className="bg-gray-300 rounded-2xl">
+            <div className="shadow-lg transform duration-200 h-full easy-in-out">
+              <div className="overflow-hidden">
+                <img className="w-full" src={CardImage} alt="" />
+              </div>
+              <div className="flex justify-center px-5 -mt-12">
+                <img
+                  className="h-32 w-32 bg-white p-2 rounded-full   "
+                  src={review.img}
+                  alt="Avatar"
+                />
+              </div>
+              <div className="text-center px-14 pb-3">
+                <h2 className="text-gray-800 text-3xl font-bold">
+                  {review.name}
+                </h2>
+                <span className="text-gray-400 mt-2 hover:text-blue-500">
+                  {review.userEmail}
+                </span>
+                <p className="mt-2 text-gray-500 text-sm">{review.review}</p>
+              </div>
             </div>
-        </div>
-        </div>
-    })
-}
-</Carousel>
-</div>
- </div>
-  )
-}
-export default Review
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+export default Review;

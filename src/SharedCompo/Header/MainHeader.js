@@ -1,7 +1,6 @@
 import React from "react";
 import SignUp from "./SignUp";
 import SearchBar from "./SearchBar";
-import DropDown from "./Dropdown";
 import TopOffer from "./TopOffer";
 
 const MainHeader = () => {
@@ -14,7 +13,7 @@ const MainHeader = () => {
       </div>
       <SignUp />
       <SearchBar />
-      <DropDown/>
+      <DropDown />
     </>
   );
 };
