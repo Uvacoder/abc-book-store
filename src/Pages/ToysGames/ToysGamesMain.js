@@ -1,5 +1,6 @@
 import React from "react";
-import ToysCarousel from "../ToysAndGame/ToysCarousel";
+import TopThreeSection from "./TopThreeSection";
+import ToysCarousel from "./ToysCarousel";
 
 const ToysGamesMain = () => {
   return (
@@ -8,6 +9,9 @@ const ToysGamesMain = () => {
         This is Toys &#38; Games Books routes
       </h1>
       <ToysCarousel />
+      <div className="divider text-3xl font-bold">you may choose</div>
+
+      <TopThreeSection />
     </div>
   );
 };
