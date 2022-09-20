@@ -1,5 +1,5 @@
 import React from "react";
-import "./AudioBook.css";
+import "./Audiobook.css";
 import AudioBookCarousel from "./AudioBookCarousel";
 
 const AudioBooksMain = () => {
