@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AboutAuthor from "./AboutAuthor";
-import "./bookDetailsTab.css";
+import "./BookDetailsTab.css";
 import ProductDetails from "./ProductDetails";
 
 const TabHome = () => {

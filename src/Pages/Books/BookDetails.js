@@ -1,13 +1,14 @@
 import React from 'react'
-import img from '../../assets/images/Author.jpg'
+import './Book.css'
+
 import { FaHeart } from 'react-icons/fa';
 import { AiFillStar } from 'react-icons/ai';
 import { BsStarHalf,BsExclamation } from 'react-icons/bs';
 import { FiTruck } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import TabHome from './BookDetailsTab/TabHome';
 
 const BookDetails = () => {
+  
 
 const priceRange=[
   { name:'Hancover',price:'12.00$'},
@@ -26,7 +27,7 @@ const priceRange=[
             <div className="Details-Img h-full justify-center flex justify-center mx-auto lg:ml-16 w-full flex-2/4">
               <div className="">
               <div className="img-box ease-in">
-               <img className='w-[308px] h-[465px] ' src={img} alt="" />
+               {/* <img className='w-[308px] h-[465px] ' src='' alt="" /> */}
                </div>
                <div className=" mt-2 flex flex-row justify-center items-center space-x-2">
                <div className="p-2 icon-border text-[13px] flex items-center hover:text-red-800 justify-center rounded-full">
@@ -113,9 +114,7 @@ const priceRange=[
 
             </div>
         </div>
-        
     </div>
-    <TabHome/>
     </>
   )
 }

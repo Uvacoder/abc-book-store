@@ -8,7 +8,6 @@ const ProductDetails = () => {
         <tbody>
           <tr>
             <th className="text-start font-normal py-2 px-4">ISBN-13:</th>
-
             <td className="px-4 py-2">9780525536963</td>
           </tr>
           <tr>
