@@ -1,20 +1,18 @@
 import React from 'react';
-import { useState } from "react";
-import img from "../../Assets/Images/audio-books.jpg";
+
 import { AiFillStar } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { useForm } from "react-hook-form";
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import Loader from '../../SharedCompo/Loader/Loader';
+import { FaHeart } from 'react-icons/fa';
+import { BsStarHalf, BsExclamation } from 'react-icons/bs';
+import { FiTruck } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import Editorial from '../Editorial/Editorial';
 
 const KidSingle = () => {
-    const [currentValue, setCurrentValue] = useState(2);
-    const stars = Array(5).fill(0);
-    const handleClick = (value) => {
-        setCurrentValue(value);
-        console.log(currentValue);
-    };
     const { bookId } = useParams()
     console.log(bookId)
     const url = ` https://books-store-server.vercel.app/api/v1/books/kidBook/${bookId}`
@@ -28,98 +26,112 @@ const KidSingle = () => {
     if (isLoading) {
         <Loader />
     }
-    const {
-        register,
-        handleSubmit,
-        watch,
-        formState: { errors },
-    } = useForm();
-    const onSubmit = (data) => {
-        console.log(data);
-        console.log(currentValue);
-    };
+    const priceRange = [
+        { name: 'Hancover', price: '12.00$' },
+        { name: 'E-book', price: '20.00$' },
+        { name: 'Audio-book', price: '14.00$' },
+        { name: 'large-print', price: '24.00$' },
+        { name: 'Audio-cd', price: '40.00$' }
+    ]
     return (
         <>
-            <div className="h-screen w-full  bg-slate-200 flex items-center">
-                <div className="relative  bg-white  max-w-4xl mx-auto z-10 shadow-lg">
-                    {/* <div className="text-right w-full bg-white p-2"> */}
+            <div className="container-width my-16 mx-auto ">
+                <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto">
 
-                    <button className="absolute z-20 right-3 top-3">
-                        <ImCross></ImCross>
-                    </button>
-
-                    <div className="flex flex-col lg:flex-row h-full items-stretch">
-                        <div className="Review-Book basis-1/3 w-full pl-2 py-10 pr-0 h-full mx-auto">
-                            <img
-                                className=" mx-auto h-3/4 w-8/12 md:w-9/12 lg:w-11/12"
-                                src={data?.img} alt=""
-                            />
-                            <div className="text-sm mt-5 mx-auto">
-                                <h1 className="mx-auto">
-                                    {data?.title}
-                                </h1>
+                    {/* ....///...... img-section  ....... .....//// */}
+                    <div className="Details-Img h-full justify-center flex justify-center mx-auto lg:ml-16 w-full flex-2/4">
+                        <div className="">
+                            <div className="img-box ease-in">
+                                <img className='w-[308px] h-[465px] ' src={data.img} alt="" />
                             </div>
-                        </div>
-
-                        <div className="Review-Form items-stretch flex flex-col h-full overflow-hidden w-full relative lg:bg-pink-100 pb-10 px-5 md:px-10 lg:px-0">
-                            <div className="bg-white pb-3 w-full pt-10">
-                                <h1 className="text-xl font-semibold">
-                                    My Review for Court of the Vampire Queen (B&N Exclusive
-                                    Edition)
-                                </h1>
-                                <h1 className="text-sm mt-2">
-                                    Required fields are marked with *
-                                </h1>
+                            <div className=" mt-2 flex flex-row justify-center items-center space-x-2">
+                                <div className="p-2 icon-border text-[13px] flex items-center hover:text-red-800 justify-center rounded-full">
+                                    <FaHeart></FaHeart>
+                                </div>
+                                <button className='text-[13px] underline'>Add to wishlist</button>
                             </div>
-                            <div className="bg-slate-50 border-y py-4 flex space-x-4 items-center mb-3">
-                                <h2 className="text-sm font-medium">Overall Rating*</h2>
-                                {stars.map((e, i) => {
-                                    return (
-                                        <AiFillStar
-                                            key={i}
-                                            className={`w-4 text-xl cursor-pointer ${currentValue > i ? "text-pink-600" : "text-gray-300"
-                                                }`}
-                                            onClick={() => handleClick(i + 1)}
-                                        />
-                                    );
-                                })}
-                            </div>
-
-                            <form className="max-w-lg" onSubmit={handleSubmit(onSubmit)}>
-                                <div className="flex w-full mx-3 gap-2 mb-3">
-                                    <input
-                                        className="input-bordered border border-1 outline-0 focus:border-pink-600 py-3 px-2 placeholder-black w-full "
-                                        defaultValue=""
-                                        {...register("Email")}
-                                        placeholder="Email"
-                                        type="email"
-                                    />
-                                    <input
-                                        className="input-bordered border border-1  py-3 outline-0 focus:border-pink-600 px-2 placeholder-black w-full "
-                                        defaultValue=""
-                                        {...register("User Name", { required: true })}
-                                        placeholder="Your Name*"
-                                        type="text"
-                                    />
-                                </div>
-                                <div className="">
-                                    <textarea
-                                        className="input-bordered border border-1 mx-3 my-2 py-3 outline-0 focus:border-pink-600 px-6 w-full placeholder-black "
-                                        placeholder="Your Review*"
-                                        {...register("Your Review", { required: true })}
-                                        rows="5"
-                                    ></textarea>
-                                </div>
-                                <div className="mx-3 mt-1">
-                                    <button className="px-12 py-3 text-white bg-blue-600 text-sm font-medium hover:bg-pink-600">
-                                        Submit
-                                    </button>
-                                </div>
-                            </form>
                         </div>
                     </div>
+
+                    {/* ....///...... content-section  ....... .....//// */}
+
+                    <div className="Details-content flex-2/4 px-5 md:px-10 lg:px-0">
+                        <h1 className='text-2xl font-semibold mb-1'>Lucy by the Sea: A Novel</h1>
+                        <p className=''>By <span className='hover:underline text-sm'>Elizabeth Strout</span></p>
+
+                        <div className="ratings flex mt-3 items-center space-x-3">
+                            <div className="icon flex text-pink-400">
+                                <AiFillStar></AiFillStar>
+                                <AiFillStar></AiFillStar>
+                                <AiFillStar></AiFillStar>
+                                <AiFillStar></AiFillStar>
+                                <BsStarHalf></BsStarHalf>
+                            </div>
+                            <h1>4.3(6)</h1>
+                        </div>
+
+                        <div className="border border-gray-50 mt-4 mb-1">
+                            <hr />
+                        </div>
+                        <p className='font-bold text-[14px]'>Hardcover</p>
+
+                        <div className="price flex items-center space-x-2 my-2 lg:my-0">
+                            <h1 className='text-3xl font-bold'>$24.99</h1>
+                            <div className=" space-x-2 flex items-center">
+                                <span className='text-sm line-through mt-1'>$28.00 </span>
+                                <h1 className='text-pink-600 font-semibold'>Save 11%</h1>
+                            </div>
+                        </div>
+
+                        <div className="price-range">
+                            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 lg:gap-2 ">
+                                {
+                                    priceRange.map(priceBox => {
+                                        // console.log(priceBox);
+                                        const { name, price } = priceBox;
+                                        return <div className=" p-2 border hover:border-1 hover:border-gray-700  hover:bg-slate-100 text-center leading-5 text-sm lg:mt-4 mb-0 xl:mb-2">
+                                            <h1>{name}</h1>
+                                            <h1 className='font-medium'>{price}</h1>
+                                        </div>
+                                    })
+                                }
+                            </div>
+                        </div>
+
+                        <div className="mb-5">
+                            <button className='text-xs text-green-800 hover:underline'>View All Available Formats & Editions</button>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                            <input type="checkbox" />
+                            <Link to='/' className='text-sm font-medium hover:underline'>Ship This Item — Qualifies for Free Shipping</Link>
+                            <button className='p-1 border rounded-full px-1 text-xl hover:bg-pink-700'> <BsExclamation></BsExclamation> </button>
+                        </div>
+
+                        <div className="leading-none">
+                            <div className="flex items-center space-x-3">
+                                <input type="checkbox" />
+                                <Link to='/' className='text-sm hover:underline'>Buy Online, Pick up in Store</Link>
+                                <button className='p-1 border rounded-full px-1 text-xl hover:bg-pink-700'> <BsExclamation></BsExclamation> </button>
+                            </div>
+                            <button className='text-green-800 hover:underline text-sm ml-5'>Check Availability at Nearby Stores</button>
+                        </div>
+
+                        <div className="btn-groups flex md:flex-row flex-col md:space-x-3 my-4 space-y-3 md:space-y-0">
+                            <button className='py-2 px-8 bg-blue-700 uppercase font-medium text-white hover:bg-opacity-80'>Pre-Order</button>
+                            <button className='py-2 px-8 border border-1 border-black hover:text-white hover:bg-black font-medium'>Sign In To Purches Instantly</button>
+                        </div>
+
+                        <div className="flex items-center space-x-2">
+                            <button className='text-xl'> <FiTruck></FiTruck> </button>
+                            <p className='text-sm'>Available for Pre-Order. This item will be available on <span className='font-semibold'>September 20, 2022</span> </p>
+                        </div>
+
+
+                    </div>
                 </div>
+
             </div>
+            <Editorial />
         </>
     );
 };

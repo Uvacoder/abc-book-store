@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
+import { Link } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
 import "../Home/fiction.css"
 
@@ -46,9 +47,9 @@ const NovelCarousel = () => {
               <img src={book.img} alt="" className="w-full h-full" />
             </div>
             <div className="card-info">
-              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              <Link to={`/novel/${book._id}`} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                 Quick Add
-              </button>
+              </Link>
             </div>
           </div>
         </>

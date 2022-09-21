@@ -16,6 +16,7 @@ import ToysGamesMain from "./Pages/ToysGames/ToysGamesMain";
 import BottomToTop from "./SharedCompo/BottomToTop/BottomToTop";
 import Footer from "./SharedCompo/Footer/Footer";
 import Navbar from "./SharedCompo/Header/Navbar";
+import NovelSingle from "./Pages/Novels/NovelSingle";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/books" element={<BooksMain />} />
         <Route path="/fiction" element={<FictionMain />} />
         <Route path="/novel" element={<NovelMain />} />
+        <Route path="/novel/:bookId" element={<NovelSingle />} />
         <Route path="/crime" element={<CrimeMain />} />
         <Route path="/kids" element={<KidsMain />} />
         <Route path="/kid/:bookId" element={<KidSingle />} />
