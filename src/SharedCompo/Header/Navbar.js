@@ -7,8 +7,9 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import TopOffer from "./TopOffer";
 import "./Style/navbar.css";
 import { useForm } from "react-hook-form";
-import SignInModal from "../../Pages/Signin/Signin";
+// import SignInModal from "../../Pages/Signin/Signin";
 import { Link } from "react-router-dom";
+import Register from "../../Pages/UserRegister/Register";
 
 const Navbar = () => {
   const { register, handleSubmit } = useForm();
@@ -355,7 +356,8 @@ const Navbar = () => {
             >
               ✕
             </label>
-            <SignInModal />
+            {/* <SignInModal /> */}
+            <Register />
           </div>
         </div>
       </div>

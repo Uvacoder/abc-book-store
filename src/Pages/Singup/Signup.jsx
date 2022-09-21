@@ -5,7 +5,7 @@ import "./Signup.css";
 // import { useAddUser } from "../../hooks/useUserHook";
 import axios from "axios";
 
-const Singup = () => {
+const Signup = ({handleRegister}) => {
   const [err, setErr] = useState("");
   const {
     register,
@@ -35,21 +35,22 @@ const Singup = () => {
         // navigate("/register");
       });
 
-    // reset();
+    
   };
 
   return (
-    <div>
-      <div className="bg-white border w-11/12 md:w-9/12 mx-auto lg:w-2/5 h-4/6 flex items-center  shadow-md p-7 overflow-y-scroll">
+    <div >
+      <div className="bg-white border  flex items-center  shadow-md p-7 overflow-y-scroll">
         <div className="w-full">
           <h2 className="text-[23px] font-semibold mb-2"> Create an Account</h2>
 
           <p className="text-gray-500 text-[14px] mb-7">
             Fill in the fields below to create a Barnes and Noble.com account.
             If you already have an account, please
-            <Link to="/" className="underline text-xs mx-1 text-teal-800">
+            {/* <Link to="/" className="underline text-xs mx-1 text-teal-800">
               Sign In
-            </Link>
+            </Link> */}
+            <button className="px-2 text-indigo-500 underline" onClick={handleRegister}>  sign in</button>
           </p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="w-full space-y-6">
@@ -172,4 +173,4 @@ const Singup = () => {
   );
 };
 
-export default Singup;
+export default Signup;
