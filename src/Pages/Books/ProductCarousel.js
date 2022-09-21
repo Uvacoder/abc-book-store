@@ -10,8 +10,6 @@ const ProductCarousel = () => {
   const url = "https://books-store-server.vercel.app/api/v1/books/generalBooks";
     const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
    
-
-
     if (isLoading) {
       return <Loader/>
     }

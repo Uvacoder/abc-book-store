@@ -1,5 +1,5 @@
 import React from "react";
-import "./Audiobook.css";
+import "./AudioBook.css";
 import AudioBookCarousel from "./AudioBookCarousel";
 
 const AudioBooksMain = () => {
@@ -7,7 +7,6 @@ const AudioBooksMain = () => {
   return (
     <div className="mb-20">
       <h1 className="text-2xl font-semibold text-center my-8"> Audio Books </h1>
-
       <section className="banner mb-10 ">
         <div className="banner-content flex h-full justify-center items-center relative">
           <div className="text-center">
@@ -20,10 +19,9 @@ const AudioBooksMain = () => {
           </div>
         </div>
       </section>
-
       <section className=" mx-auto">
         <h1 className="text-2xl font-semibold text-center">
-          30% Off Audiobooks Bestsellers
+          30% Off Audio Books Bestsellers
         </h1>
         <div className="divider"></div>
         <div className="mx-auto max-w-4xl">
@@ -35,7 +33,6 @@ const AudioBooksMain = () => {
           </div>
         </div>
       </section>
-
       <section className=" mx-auto">
         <div className="divider my-10 text-2xl font-semibold px-20">
           Subscribe Today for Free
@@ -78,7 +75,6 @@ const AudioBooksMain = () => {
           </div>
         </div>
       </section>
-
       <section>
         <div className="border max-w-4xl mx-auto px-5 py-10 mt-20">
           <p className="text-sm">
