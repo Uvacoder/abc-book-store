@@ -1,26 +1,15 @@
-<<<<<<< HEAD:src/Pages/FictionBooks/BookDetails.jsx
-import React from 'react'
-// import './Book.css'
-import img from '../../Assets/Images/demoBook.webp'
-import { FaHeart } from 'react-icons/fa';
-import { AiFillStar } from 'react-icons/ai';
-import { BsStarHalf,BsExclamation } from 'react-icons/bs';
-import { FiTruck } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-=======
 import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
 import "../../Pages/Books/Book.css";
->>>>>>> 06e7393eaad3b9f7b4f321382c5b57738cfa2983:src/Pages/E-Books/EbookDetails.js
 
 import { FaHeart } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import { BsStarHalf, BsExclamation } from "react-icons/bs";
 import { FiTruck } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import TabHome from "../../SharedCompo/BookDrtailTab/TabHome";
+import TabHome from "../../SharedCompo/BookDetailTab/TabHome";
 
 const EbookDetails = () => {
   const { id } = useParams();
