@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import AcademicMain from "./Pages/Academic/AcademicMain";
 import AudioBookDetails from "./Pages/AudioBooks/AudioBookDetails";
 import AudioBooksMain from "./Pages/AudioBooks/AudioBooksMain";
+import BookDetails from "./Pages/Books/BookDetails";
 import BooksMain from "./Pages/Books/BooksMain";
 import CrimeMain from "./Pages/Crime/CrimeMain";
 import EbookDetails from "./Pages/E-Books/EbookDetails";
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<BooksMain />} />
+        <Route path="/book/:id" element={<BookDetails/>} />
         <Route path="/fiction" element={<FictionMain />} />
         <Route path="/novel" element={<NovelMain/>} />
         <Route path="/crime" element={<CrimeMain/>} />
