@@ -2,9 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AcademicMain from "./Pages/Academic/AcademicMain";
+import AudioBookDetails from "./Pages/AudioBooks/AudioBookDetails";
 import AudioBooksMain from "./Pages/AudioBooks/AudioBooksMain";
+
 import BooksMain from "./Pages/Books/BooksMain";
 import CrimeMain from "./Pages/Crime/CrimeMain";
+import EbookDetails from "./Pages/E-Books/EbookDetails";
 import EbooksMain from "./Pages/E-Books/EbooksMain";
 import FictionMain from "./Pages/FictionBooks/FictionMain";
 import Home from "./Pages/Home/Home";
@@ -28,7 +31,9 @@ function App() {
         <Route path="/kids" element={<KidsMain/>} />
         <Route path="/academic" element={<AcademicMain/>} />
         <Route path="/ebooks" element={<EbooksMain/>} />
+        <Route path="/ebook/:id" element={<EbookDetails/>} />
         <Route path="/audioBooks" element={<AudioBooksMain/>} />
+        <Route path="/audioBook/:id" element={<AudioBookDetails/>} />
         <Route path="/toysGames" element={<ToysGamesMain/>} />
         <Route path="/stationary" element={<StationaryMain/>} />
       </Routes>

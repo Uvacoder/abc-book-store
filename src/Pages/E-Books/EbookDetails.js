@@ -1,30 +1,48 @@
-import React from 'react'
-import './Book.css'
-import img from '../../Assets/Images/demoBook.webp'
-import { FaHeart } from 'react-icons/fa';
-import { AiFillStar } from 'react-icons/ai';
-import { BsStarHalf,BsExclamation } from 'react-icons/bs';
-import { FiTruck } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { useQuery } from "react-query";
+import { useParams } from "react-router-dom";
+import Loader from "../../SharedCompo/Loader/Loader";
+import "../../Pages/Books/Book.css";
 
-const BookDetails = () => {
-const priceRange=[
-  { name:'Handover',price:'12.00$'},
-  { name:'E-book',price:'20.00$'},
-  { name:'Audio-book',price:'14.00$'},
-  { name:'large-print',price:'24.00$'},
-  { name:'Audio-cd',price:'40.00$'}
-]
+import { FaHeart } from "react-icons/fa";
+import { AiFillStar } from "react-icons/ai";
+import { BsStarHalf, BsExclamation } from "react-icons/bs";
+import { FiTruck } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import TabHome from "../../SharedCompo/BookDrtailTab/TabHome";
 
+const EbookDetails = () => {
+  const { id } = useParams();
+  console.log(id);
+  const url = `https://books-store-server.vercel.app/api/v1/books/ebook/${id}`;
+  const { isLoading, data: Books } = useQuery(
+    "Products",
+    () => fetch(url).then((res) => res.json())
+    // console.log(Books)
+  );
+
+  if (isLoading) {
+    return <Loader />;
+  }
+
+  const priceRange = [
+    { name: "Hancover", price: "12.00$" },
+    { name: "E-book", price: "20.00$" },
+    { name: "Audio-book", price: "14.00$" },
+    { name: "large-print", price: "24.00$" },
+    { name: "Audio-cd", price: "40.00$" },
+  ];
+
+  // title,description,img,author,discount,stock,rating,price
   return (
-    <>
+    <div className="mb-4">
       <div className="container-width my-16 mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto">
           {/* ....///...... img-section  ....... .....//// */}
           <div className="Details-Img h-full flex justify-center mx-auto lg:ml-16 w-full flex-2/4">
             <div className="">
               <div className="img-box ease-in">
-                <img className="w-[308px] h-[465px] " src={img} alt="" />
+                <img className="w-[308px] h-[465px] " src={Books?.img} alt="" />
               </div>
               <div className=" mt-2 flex flex-row justify-center items-center space-x-2">
                 <div className="p-2 icon-border text-[13px] flex items-center hover:text-red-800 justify-center rounded-full">
@@ -38,9 +56,10 @@ const priceRange=[
           </div>
           {/* ....///...... content-section  ....... .....//// */}
           <div className="Details-content flex-2/4 px-5 md:px-10 lg:px-0">
-            <h1 className="text-2xl font-semibold mb-1">The First to Die at the End</h1>
+            <h1 className="text-2xl font-semibold mb-1">{Books?.title}</h1>
             <p className="">
-              By <span className="hover:underline text-sm">Adam Silvera</span>
+              By{" "}
+              <span className="hover:underline text-sm">{Books?.author}</span>
             </p>
             <div className="ratings flex mt-3 items-center space-x-3">
               <div className="icon flex text-pink-400">
@@ -50,17 +69,19 @@ const priceRange=[
                 <AiFillStar></AiFillStar>
                 <BsStarHalf></BsStarHalf>
               </div>
-              <h1>4.3(6)</h1>
+              <h1>{Books.rating}(6)</h1>
             </div>
             <div className="border border-gray-50 mt-4 mb-1">
               <hr />
             </div>
             <p className="font-bold text-[14px]">Hardcover</p>
             <div className="price flex items-center space-x-2 my-2 lg:my-0">
-              <h1 className="text-3xl font-bold">$24.99</h1>
+              <h1 className="text-3xl font-bold">{Books.price}$</h1>
               <div className=" space-x-2 flex items-center">
                 <span className="text-sm line-through mt-1">$28.00 </span>
-                <h1 className="text-pink-600 font-semibold">Save 11%</h1>
+                <h1 className="text-pink-600 font-semibold">
+                  Save {Books.discount}%
+                </h1>
               </div>
             </div>
             <div className="price-range">
@@ -77,10 +98,9 @@ const priceRange=[
                 })}
               </div>
             </div>
-
             <div className="mb-5">
               <button className="text-xs text-green-800 hover:underline">
-                View All Available Formats &#38; Editions
+                View All Available Formats & Editions
               </button>
             </div>
             <div className="flex items-center space-x-3">
@@ -88,7 +108,9 @@ const priceRange=[
               <Link to="/" className="text-sm font-medium hover:underline">
                 Ship This Item — Qualifies for Free Shipping
               </Link>
-              <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700"><BsExclamation></BsExclamation></button>
+              <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700">
+                <BsExclamation></BsExclamation>
+              </button>
             </div>
             <div className="leading-none">
               <div className="flex items-center space-x-3">
@@ -96,7 +118,9 @@ const priceRange=[
                 <Link to="/" className="text-sm hover:underline">
                   Buy Online, Pick up in Store
                 </Link>
-                <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700"><BsExclamation></BsExclamation></button>
+                <button className="p-1 border rounded-full px-1 text-xl hover:bg-pink-700">
+                  <BsExclamation></BsExclamation>
+                </button>
               </div>
               <button className="text-green-800 hover:underline text-sm ml-5">
                 Check Availability at Nearby Stores
@@ -104,21 +128,27 @@ const priceRange=[
             </div>
             <div className="btn-groups flex md:flex-row flex-col md:space-x-3 my-4 space-y-3 md:space-y-0">
               <button className="py-2 px-8 bg-blue-700 uppercase font-medium text-white hover:bg-opacity-80">
-                Pre-Order
+                Buy Now
               </button>
               <button className="py-2 px-8 border border-1 border-black hover:text-white hover:bg-black font-medium">
                 Sign In To Purchase Instantly
               </button>
             </div>
             <div className="flex items-center space-x-2">
-              <button className="text-xl"><FiTruck></FiTruck></button>
-              <p className="text-sm">Available for Pre-Order. This item will be available on<span className="font-semibold">September 20, 2022</span></p>
+              <button className="text-xl">
+                <FiTruck></FiTruck>
+              </button>
+              <p className="text-sm">
+                Available for Pre-Order. This item will be available on
+                <span className="font-semibold">September 20, 2022</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </>
+      <TabHome/>
+    </div>
   );
-}
+};
 
-export default BookDetails
+export default EbookDetails;
