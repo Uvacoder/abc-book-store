@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import authorImg from "../../Assets/Images/Author.jpg";
+import authorImg from "../../Assets/Images/writter.jpg";
 const AboutAuthor = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hidden, setHidden] = useState("overflow-hidden h-[302px]");
