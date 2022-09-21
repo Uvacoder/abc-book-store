@@ -3,10 +3,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "../Home/fiction.css"
+import "../Home/CarouselCard.css"
 
-const ProductCarousel = () => {
-  const url = "https://books-store-server.vercel.app/api/v1/books/fictions";
+const NovelCarousel = () => {
+  const url = "https://books-store-server.vercel.app/api/v1/books/novels";
     const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
 
     if (isLoading) {
@@ -57,4 +57,4 @@ const ProductCarousel = () => {
   );
 };
 
-export default ProductCarousel;
+export default NovelCarousel;

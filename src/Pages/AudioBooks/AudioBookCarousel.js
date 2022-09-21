@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
 import { useNavigate } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "../Home/fiction.css"
+import "../Home/CarouselCard.css"
 
 const AudioBookCarousel = () => {
   const url = "https://books-store-server.vercel.app/api/v1/books/audioBooks";

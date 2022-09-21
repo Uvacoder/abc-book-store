@@ -1,6 +1,6 @@
 import React from 'react';
 import SpecialSlider from '../../SharedCompo/SpecialSection/SpecialSlider';
-import ProductCarousel from './ProductCarousel';
+import BookCarousel from './BookCarousel';
 
 const BooksMain = () => {
     return (
@@ -12,16 +12,16 @@ const BooksMain = () => {
           Discover the best books to read right now including trending titles,
           bookseller recommendations, new releases and more.
         </p>
-        <SpecialSlider/>
-        <ProductCarousel />
+        <SpecialSlider />
+        <BookCarousel />
         <h1 className="m-2 text-center text-2xl text-gray-900">
           New Arrivals Books
         </h1>
-        <ProductCarousel />
+        <BookCarousel />
         <h1 className="m-2 text-center text-2xl text-gray-900">
           All General Books
         </h1>
-        <ProductCarousel />
+        <BookCarousel />
       </div>
     );
 };
