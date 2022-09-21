@@ -1,5 +1,6 @@
 import React from 'react';
-import ProductCarousel from './ProductCarousel';
+import AcademicCarousel from './AcademicCarousel';
+
 
 const AcademicMain = () => {
     return (
@@ -7,15 +8,15 @@ const AcademicMain = () => {
         <div className="divider font-bold text-2xl m-2 text-gray-900">
           Top Rated Academic Books
         </div>
-        <ProductCarousel />
+        <AcademicCarousel />
         <div className="divider font-bold text-2xl m-2 text-gray-900">
           New Arrivals Books
         </div>
-        <ProductCarousel />
+        <AcademicCarousel />
         <div className="divider font-bold text-2xl m-2 text-gray-900">
           All Academic Books
         </div>
-        <ProductCarousel />
+        <AcademicCarousel />
       </div>
     );
 };

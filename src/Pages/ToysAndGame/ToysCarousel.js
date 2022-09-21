@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "./toys.css";
+import "../Home/CarouselCard.css";
 
 const ToysCarousel = () => {
   const url = "https://books-store-server.vercel.app/api/v1/books/toys";
@@ -43,32 +43,14 @@ const ToysCarousel = () => {
     >
       {Books.map((book) => (
         <>
-          <div className="card-2  bg-base-100 shadow-xl">
-            <figure className="card-image">
-              <img
-                className="w-[158px] h-[158px] ml-8"
-                src={book.img}
-                alt="Shoes"
-              />
-            </figure>
-            <div className="card-btn ">
+          <div className="card mb-4" key={book._id}>
+            <div className="card-img">
+              <img src={book.img} alt="" className="h-full w-full"/>
+            </div>
+            <div className="card-info">
               <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                 Quick Add
               </button>
-            </div>
-            <div className="card-body">
-              <p className="text-sm  hover:underline">
-                {book.title.length > 30
-                  ? book.title.slice(0, 20) + "..."
-                  : book.title}
-              </p>
-              <p>
-                by{" "}
-                <span className="text-[#347d56] hover:underline">
-                  {book.supplier}
-                </span>
-              </p>
-              <p>{book.rating}</p>
             </div>
           </div>
         </>
