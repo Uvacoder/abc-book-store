@@ -50,7 +50,7 @@ const AudioBookCarousel = () => {
               <img className="h-full w-full" src={book.img} alt="" />
             </div>
             <div className="card-info">
-              <button onClick={()=> navigate(`/audioBook/:${book._id}`)} className="px-10 py-1 font-medium rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              <button onClick={()=> navigate(`/audioBook/${book._id}`)} className="px-10 py-1 font-medium rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                Details
               </button>
             </div>
