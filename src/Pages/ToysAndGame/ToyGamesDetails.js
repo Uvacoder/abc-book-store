@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "./Book.css";
+import "../../Pages/Books/Book.css";
 
 import { FaHeart } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
@@ -11,12 +11,12 @@ import { FiTruck } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import TabHome from "../../SharedCompo/BookDetailTab/TabHome";
 
-const BookDetails = () => {
+const ToyGamesDetails = () => {
   const { id } = useParams();
   console.log(id);
-  const url = `https://books-store-server.vercel.app/api/v1/books/generalBook/${id}`;
-  const { isLoading, data: Books } = useQuery(
-    "Products",
+  const url = `https://books-store-server.vercel.app/api/v1/books/toy/${id}`;
+  const { isLoading, data: Toy } = useQuery(
+    "Toy",
     () => fetch(url).then((res) => res.json())
     // console.log(Books)
   );
@@ -42,7 +42,7 @@ const BookDetails = () => {
           <div className="Details-Img h-full flex justify-center mx-auto lg:ml-16 w-full flex-2/4">
             <div className="">
               <div className="img-box ease-in">
-                <img className="w-[308px] h-[465px] " src={Books?.img} alt="" />
+                <img className="w-[308px] h-[465px] " src={Toy?.img} alt="" />
               </div>
               <div className=" mt-2 flex flex-row justify-center items-center space-x-2">
                 <div className="p-2 icon-border text-[13px] flex items-center hover:text-red-800 justify-center rounded-full">
@@ -56,10 +56,10 @@ const BookDetails = () => {
           </div>
           {/* ....///...... content-section  ....... .....//// */}
           <div className="Details-content flex-2/4 px-5 md:px-10 lg:px-0">
-            <h1 className="text-2xl font-semibold mb-1">{Books?.title}</h1>
+            <h1 className="text-2xl font-semibold mb-1">{Toy?.title}</h1>
             <p className="">
               By{" "}
-              <span className="hover:underline text-sm">{Books?.author}</span>
+              <span className="hover:underline text-sm">{Toy?.author}</span>
             </p>
             <div className="ratings flex mt-3 items-center space-x-3">
               <div className="icon flex text-pink-400">
@@ -69,18 +69,18 @@ const BookDetails = () => {
                 <AiFillStar></AiFillStar>
                 <BsStarHalf></BsStarHalf>
               </div>
-              <h1>{Books.rating}(6)</h1>
+              <h1>{Toy.rating}(6)</h1>
             </div>
             <div className="border border-gray-50 mt-4 mb-1">
               <hr />
             </div>
             <p className="font-bold text-[14px]">Hardcover</p>
             <div className="price flex items-center space-x-2 my-2 lg:my-0">
-              <h1 className="text-3xl font-bold">{Books.price}$</h1>
+              <h1 className="text-3xl font-bold">{Toy.price}$</h1>
               <div className=" space-x-2 flex items-center">
                 <span className="text-sm line-through mt-1">$28.00 </span>
                 <h1 className="text-pink-600 font-semibold">
-                  Save {Books.discount}%
+                  Save {Toy.discount}%
                 </h1>
               </div>
             </div>
@@ -151,4 +151,4 @@ const BookDetails = () => {
   );
 };
 
-export default BookDetails;
+export default ToyGamesDetails;

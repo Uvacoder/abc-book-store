@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "./Book.css";
+import "../../Pages/Books/Book.css";
 
 import { FaHeart } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
@@ -11,15 +11,11 @@ import { FiTruck } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import TabHome from "../../SharedCompo/BookDetailTab/TabHome";
 
-const BookDetails = () => {
+const FictionDetails = () => {
   const { id } = useParams();
   console.log(id);
-  const url = `https://books-store-server.vercel.app/api/v1/books/generalBook/${id}`;
-  const { isLoading, data: Books } = useQuery(
-    "Products",
-    () => fetch(url).then((res) => res.json())
-    // console.log(Books)
-  );
+  const url = `https://books-store-server.vercel.app/api/v1/books/fiction/${id}`;
+  const { isLoading, data: Books } = useQuery("fiction",() => fetch(url).then((res) => res.json()));
 
   if (isLoading) {
     return <Loader />;
@@ -80,7 +76,7 @@ const BookDetails = () => {
               <div className=" space-x-2 flex items-center">
                 <span className="text-sm line-through mt-1">$28.00 </span>
                 <h1 className="text-pink-600 font-semibold">
-                  Save {Books.discount}%
+                  Save {Books?.discount}%
                 </h1>
               </div>
             </div>
@@ -151,4 +147,4 @@ const BookDetails = () => {
   );
 };
 
-export default BookDetails;
+export default FictionDetails;

@@ -128,7 +128,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        {/* -----------------Second section of navigatio bar-------------------*/}
+        {/* -----------------Second section of navigation bar-------------------*/}
         <div className="py-5">
           <nav className="nav-second-part flex justify-center items-cente">
             <ul className="flex justify-self items-center">
@@ -198,28 +198,7 @@ const Navbar = () => {
               <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
                 <div className="dropdown dropdown-hover">
                   <label tabIndex={0} className="m-1">
-                    <Link to="/crime">Crime</Link>
-                  </label>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content bg-base-100 w-[150px]"
-                  >
-                    <li>
-                      <Link to="/crime/topRated">Top Rated</Link>
-                    </li>
-                    <li>
-                      <Link to="/crime/allBooks">All Books</Link>
-                    </li>
-                    <li>
-                      <Link to="/crime/newArrival">New Arrival</Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
-                <div className="dropdown dropdown-hover">
-                  <label tabIndex={0} className="m-1">
-                    <Link to="/kids">Kids</Link>
+                    <Link to="/kidBooks">Kids</Link>
                   </label>
                   <ul
                     tabIndex={0}
