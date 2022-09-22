@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
-import "./Signin.css";
+import "./SigIn.css";
 
 const Signin = ({handleRegister}) => {
   const [err, setErr] = useState("");
@@ -19,14 +19,11 @@ const Signin = ({handleRegister}) => {
       .post("http://localhost:5000/api/v1/login", { email, password })
       .then((user) => {
         localStorage.setItem("token", user.data.token);
-
-        console.log(user);
         console.log("user is successfully login!");
         // navigate("/profile");
       })
       .catch((error) => {
         setErr(error.response.data.message);
-        console.log(error.response.data)
         // navigate("/login");
       });
   };
