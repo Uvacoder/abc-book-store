@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "./Book.css";
+import "../../Pages/Books/Book.css";
 
 import { FaHeart } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
@@ -11,12 +11,12 @@ import { FiTruck } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import TabHome from "../../SharedCompo/BookDetailTab/TabHome";
 
-const BookDetails = () => {
+const StationaryDetails = () => {
   const { id } = useParams();
   console.log(id);
-  const url = `https://books-store-server.vercel.app/api/v1/books/generalBook/${id}`;
+  const url = `https://books-store-server.vercel.app/api/v1/books/stationary/${id}`;
   const { isLoading, data: Books } = useQuery(
-    "Products",
+    "stationary",
     () => fetch(url).then((res) => res.json())
     // console.log(Books)
   );
@@ -151,4 +151,4 @@ const BookDetails = () => {
   );
 };
 
-export default BookDetails;
+export default StationaryDetails;

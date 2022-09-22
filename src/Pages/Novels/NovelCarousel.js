@@ -2,13 +2,14 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
+import { useNavigate } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
 import "../Home/CarouselCard.css"
 
 const NovelCarousel = () => {
   const url = "https://books-store-server.vercel.app/api/v1/books/novels";
-    const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
-
+    const { isLoading, data: Books } = useQuery('novel', ()=>fetch(url).then((res)=>res.json()));
+  const navigate = useNavigate();
     if (isLoading) {
       return <Loader/>
     }
@@ -46,7 +47,7 @@ const NovelCarousel = () => {
               <img src={book.img} alt="" />
             </div>
             <div className="card-info">
-              <button className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              <button onClick={()=> navigate(`/novel/${book._id}`)} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                 Quick Add
               </button>
             </div>
