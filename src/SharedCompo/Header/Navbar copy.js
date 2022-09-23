@@ -139,7 +139,7 @@ const Navbar = () => {
             </div>
           </div>
           {/* -----------------Second section of navigatio bar-------------------*/}
-          <div className="py-5">
+          <div className="py-5 hidden">
             <nav className="nav-second-part">
               <ul className="flex justify-self items-center">
                 <li className="second-dropdown border-b-2 border-[#54575a] border-opacity-0 hover:border-opacity-100 hover:text-[#54575a] duration-200 cursor-pointer">
