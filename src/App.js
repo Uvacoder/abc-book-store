@@ -4,7 +4,6 @@ import "react-toastify/dist/ReactToastify.css";
 import AcademicMain from "./Pages/Academic/AcademicMain";
 import AudioBooksMain from "./Pages/AudioBooks/AudioBooksMain";
 import BooksMain from "./Pages/Books/BooksMain";
-import CrimeMain from "./Pages/Crime/CrimeMain";
 import EbooksMain from "./Pages/E-Books/EbooksMain";
 import FictionMain from "./Pages/FictionBooks/FictionMain";
 import Home from "./Pages/Home/Home";
@@ -29,7 +28,7 @@ function App() {
         <Route path="/fiction" element={<FictionMain />} />
         <Route path="/novel" element={<NovelMain />} />
         <Route path="/novel/:bookId" element={<NovelSingle />} />
-        <Route path="/crime" element={<CrimeMain />} />
+        {/* <Route path="/crime" element={<CrimeMain />} /> */}
         <Route path="/kids" element={<KidsMain />} />
         <Route path="/kid/:bookId" element={<KidSingle />} />
         <Route path="/academic" element={<AcademicMain />} />
@@ -42,5 +41,5 @@ function App() {
     </div>
   );
 }
-<ToastContainer />
+<ToastContainer />;
 export default App;

@@ -1,8 +1,5 @@
 import React from 'react';
-
 import { AiFillStar } from "react-icons/ai";
-import { ImCross } from "react-icons/im";
-import { useForm } from "react-hook-form";
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import Loader from '../../SharedCompo/Loader/Loader';
@@ -39,7 +36,7 @@ const KidSingle = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto">
 
                     {/* ....///...... img-section  ....... .....//// */}
-                    <div className="Details-Img h-full justify-center flex justify-center mx-auto lg:ml-16 w-full flex-2/4">
+                    <div className="Details-Img h-full justify-center flex mx-auto lg:ml-16 w-full flex-2/4">
                         <div className="">
                             <div className="img-box ease-in">
                                 <img className='w-[308px] h-[465px] ' src={data.img} alt="" />

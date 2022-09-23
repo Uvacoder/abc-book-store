@@ -2,24 +2,18 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useQuery } from "react-query";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Loader from "../../SharedCompo/Loader/Loader";
-import "../Home/fiction.css"
+import "../Home/CarouselCard.css"
 
-const KidsCarousel = () => {
-
-  const url = `https://books-store-server.vercel.app/api/v1/books/kidBooks`;
-  const { isLoading, data: Books } = useQuery('Products', () => fetch(url)
-    .then((res) => res.json()
-      .catch((err) => {
-        console.log(err)
-      })));
-
-  console.log(Books)
-  if (isLoading) {
-    return <Loader />
-  }
-
+const BookCarousel = () => {
+  const url = "https://books-store-server.vercel.app/api/v1/books/generalBooks";
+    const { isLoading, data: Books } = useQuery('Products', ()=>fetch(url).then((res)=>res.json()));
+    const navigate = useNavigate();
+   
+    if (isLoading) {
+      return <Loader/>
+    }
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -27,11 +21,11 @@ const KidsCarousel = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 1,
     },
   };
   return (
@@ -51,19 +45,18 @@ const KidsCarousel = () => {
         <>
           <div className="card mb-3" key={book._id}>
             <div className="card-img">
-              <img src={book.img} alt="" className="w-full h-full" />
+              <img src={book.img} alt="" className="h-full w-full" />
             </div>
             <div className="card-info">
-              <Link to={`/kid/${book._id}`} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
+              <button onClick={()=> navigate(`/book/${book._id}`)} className="w-full rounded-2xl m-1 text-base text-gray-50 bg-[#0e2f50cb] hover:bg-[#0a6d4c9e]">
                 Quick Add
-              </Link>
+              </button>
             </div>
           </div>
         </>
-      ))
-      }
-    </Carousel >
+      ))}
+    </Carousel>
   );
 };
 
-export default KidsCarousel;
+export default BookCarousel;

@@ -3,11 +3,10 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
-import "./Signin.css";
+import "./SigIn.css";
 
-const Signin = () => {
+const Signin = ({handleRegister}) => {
   const [err, setErr] = useState("");
-
   const {
     register,
     handleSubmit,
@@ -20,21 +19,18 @@ const Signin = () => {
       .post("http://localhost:5000/api/v1/login", { email, password })
       .then((user) => {
         localStorage.setItem("token", user.data.token);
-
-        console.log(user);
         console.log("user is successfully login!");
         // navigate("/profile");
       })
       .catch((error) => {
         setErr(error.response.data.message);
-        console.log(error.response.data)
         // navigate("/login");
       });
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="bg-white border w-11/12 md:w-9/12 mx-auto lg:w-2/5 h-max flex items-center shadow-md p-7">
+    <div className="container ">
+      <div className="bg-white border  flex items-center shadow-md p-7">
         <div className="w-full">
           <h2 className="text-[23px] font-semibold mb-5">
             Sign in or Create an Account
@@ -109,7 +105,7 @@ const Signin = () => {
           </div>
 
           <button
-            type="submit"
+            onClick={handleRegister}
             className=" py-[.69rem] w-full text-black outline-1 border border-black hover:bg-slate-200 mb-6"
           >
             Create an Account
