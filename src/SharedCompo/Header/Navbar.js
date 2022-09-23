@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiOutlineChevronDown } from "react-icons/hi";
 import { BiUserCircle } from "react-icons/bi";
@@ -12,18 +12,14 @@ import { Link } from "react-router-dom";
 import Register from "../../Pages/UserRegister/Register";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
-
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
   return (
-    
-      <div className="">
-        <div className="bg-[#3e5962]">
-          <div className="w-3/5 my-auto mx-auto">
-            <TopOffer />
-          </div>
+    <div className="">
+      <div className="bg-[#3e5962]">
+        <div className="w-3/5 my-auto mx-auto">
+          <TopOffer />
         </div>
       </div>
       {/*------------------------  Navigation Menu---------------------*/}
@@ -49,72 +45,6 @@ const Navbar = () => {
                 <div className="text-center">
                   <HiOutlineChevronDown className="text-xl" />
                 </div>
-
-                <input
-                  className="search-input px-4 p-2 w-full"
-                  placeholder="Search Your Book"
-                  {...register("search")}
-                />
-
-                <button type="submit" className="py-2 px-4 bg-[#54575a]">
-                  <AiOutlineSearch className="text-white text-2xl" />
-                </button>
-              </form>
-            </div>
-            {/* --------------------Icons--------------------  */}
-            <div className="flex flex-row justify-center items-center gap-4 user-section">
-              {/* userIcon */}
-              <div className="dropdown dropdown-hover">
-                <label tabIndex="0" className="m-3">
-                  <button
-                    type="submit"
-                    className="text-[14px] flex flex-row justify-center items-center gap-2"
-                  >
-                    <BiUserCircle className="text-3xl" />
-                    <span>MY ACCOUNT</span>
-                    <HiOutlineChevronDown className="text-xl" />
-                  </button>
-                </label>
-                <ul
-                  tabIndex="0"
-                  className="dropdown-content shadow bg-base-100 mt-[-20px] w-[185px]"
-                >
-                  <div className="p-3">
-                    <div className="text-center bg-[#346250]">
-                      <button type="submit" className="text-white p-1">
-                        {/* open modal */}
-                        <label
-                          htmlFor="my-modal-3"
-                          className="cursor-pointer modal-button"
-                          onClick={() => setOpen(false)}
-                        >
-                          Sign In
-                        </label>
-                      </button>
-                    </div>
-                    <div className="text-center ">
-                      <button type="submit" className="text-[12px] underline ">
-                        <label
-                          htmlFor="my-modal-3"
-                          className="cursor-pointer modal-button"
-                          onClick={() => setOpen(true)}
-                        >
-                          Create an account
-                        </label>
-                      </button>
-                    </div>
-                  </div>
-                  <hr />
-                  <li>
-                    <a href="#/">Manage Account</a>
-                  </li>
-                  <li>
-                    <a href="#/">Order Status</a>
-                  </li>
-                  <li>
-                    <a href="#/">Payment Methods</a>
-                  </li>
-                </ul>
               </div>
               <input
                 className="search-input px-4 p-2 w-full"
@@ -135,19 +65,63 @@ const Navbar = () => {
                   type="submit"
                   className="text-[14px] flex flex-row justify-center items-center gap-2"
                 >
-                  <FcLikePlaceholder className="text-3xl" />
-                  WISHLIST
+                  <BiUserCircle className="text-3xl" />
+                  <span>MY ACCOUNT</span>
+                  <HiOutlineChevronDown className="text-xl" />
                 </button>
-              </div>
-              {/* shopping cart */}
-              <div className="items-center mr-4">
-                <button type="submit" className="flex row relative">
-                  <AiOutlineShoppingCart className="text-3xl" />
-                  <div class="inline-flex absolute -top-2 -right-2 justify-center items-center w-6 h-6 text-xs font-bold text-white bg-[#54575a] rounded-full border-2 border-white dark:border-gray-900">
-                    10
+              </label>
+              <ul
+                tabIndex="0"
+                className="dropdown-content shadow bg-base-100 mt-[-20px] w-[185px]"
+              >
+                <div className="p-3">
+                  <div className="text-center bg-[#346250]">
+                    <button type="submit" className="text-white p-1">
+                      {/* open modal */}
+                      <label
+                        htmlFor="my-modal-3"
+                        className="modal-button cursor-pointer"
+                      >
+                        Sign In
+                      </label>
+                    </button>
                   </div>
-                </button>
-              </div>
+                  <div className="text-center ">
+                    <button type="submit" className="text-[12px] underline">
+                      <a href="#/">Create an account</a>
+                    </button>
+                  </div>
+                </div>
+                <hr />
+                <li>
+                  <a href="#/">Manage Account</a>
+                </li>
+                <li>
+                  <a href="#/">Order Status</a>
+                </li>
+                <li>
+                  <a href="#/">Payment Methods</a>
+                </li>
+              </ul>
+            </div>
+            {/* wishlist */}
+            <div>
+              <button
+                type="submit"
+                className="text-[14px] flex flex-row justify-center items-center gap-2"
+              >
+                <FcLikePlaceholder className="text-3xl" />
+                WISHLIST
+              </button>
+            </div>
+            {/* shopping cart */}
+            <div className="items-center mr-4">
+              <button type="submit" className="flex row relative">
+                <AiOutlineShoppingCart className="text-3xl" />
+                <div class="inline-flex absolute -top-2 -right-2 justify-center items-center w-6 h-6 text-xs font-bold text-white bg-[#54575a] rounded-full border-2 border-white dark:border-gray-900">
+                  10
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -277,7 +251,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-   
+    </div>
   );
 };
 
