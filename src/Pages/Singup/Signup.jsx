@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Signup.css";
 import axios from "axios";
 
-const Singup = ({ open, setOpen }) => {
+const Signup = ({handleRegister}) => {
   const [err, setErr] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -39,145 +39,23 @@ const Singup = ({ open, setOpen }) => {
         setOpen(true);
       });
 
-    reset();
-  };
-
-  
-  const hadnleSignin = () => {
     
-    console.log(email, password);
-    axios
-      .post("http://localhost:5000/api/v1/login", { email, password })
-      .then((user) => {
-        localStorage.setItem("token", user.data.token);
-
-        console.log(user);
-        console.log("user is successfully login!");
-        // navigate("/profile");
-        setOpen(true);
-      })
-      .catch((error) => {
-        setErr(error.response.data.message);
-        console.log(error.response.data);
-        setOpen(false);
-        
-      });
   };
 
   return (
-    <>
-      {open === true ? (
-        // signup form
-        <div className="bg-white border flex items-center  shadow-md p-7 ">
-          <div className="w-full">
-            <h2 className="text-[23px] font-semibold mb-2">
-              {" "}
-              Create an Account
-            </h2>
+    <div >
+      <div className="bg-white border  flex items-center  shadow-md p-7 overflow-y-scroll">
+        <div className="w-full">
+          <h2 className="text-[23px] font-semibold mb-2"> Create an Account</h2>
 
-            <p className="text-gray-500 text-[14px] mb-7">
-              Fill in the fields below to create a Barnes and Noble.com account.
-              If you already have an account, please
-              <Link to="/" className="underline text-xs mx-1 text-teal-800">
-                Sign In
-              </Link>
-            </p>
-
-            <form
-              onSubmit={handleSubmit(signupSubmit)}
-              className="w-full space-y-6"
-            >
-              <div className="inputGroup">
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  {...register("name", { required: true })}
-                />
-                <label htmlFor="name">Full Name</label>
-              </div>
-              {errors.name && (
-                <p className="text-gray-50 text-center">
-                  First Name is required.
-                </p>
-              )}
-
-              <div className="inputGroup">
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  {...register("email", {
-                    pattern: {
-                      value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-                      message: "Provide a valid Email",
-                    },
-                    required: {
-                      value: true,
-                      message: "Email is required",
-                    },
-                  })}
-                />
-
-                <label htmlFor="email">Email</label>
-              </div>
-              {errors.email?.type === "pattern" && (
-                <p className="text-gray-50 text-center">
-                  {errors.email.message}
-                </p>
-              )}
-              {errors.email?.type === "required" && (
-                <p className="text-gray-50 text-center">
-                  {errors.email.message}
-                </p>
-              )}
-
-              <div className="inputGroup">
-                <input
-                  type="text"
-                  required
-                  {...register("mobile", { required: true })}
-                  name="mobile"
-                />
-                <label htmlFor="mobile">Mobile</label>
-              </div>
-
-              <div className="inputGroup">
-                <input
-                  type="text"
-                  required
-                  {...register("address", { required: true })}
-                  name="address"
-                />
-                <label htmlFor="address">Address</label>
-              </div>
-
-              <div className="inputGroup">
-                <input
-                  type="password"
-                  name="password"
-                  required
-                  {...register("password", {
-                    minLength: {
-                      value: 6,
-                      message: "Password min-length six characters",
-                    },
-                    required: {
-                      value: true,
-                      message: "Password is required",
-                    },
-                  })}
-                />
-
-                <label htmlFor="password">Password</label>
-              </div>
-              {errors.password?.type === "minLength" && (
-                <p className="text-gray-50 text-center">
-                  {errors.password.message}
-                </p>
-              )}
-
-              {err ? <p className="text-black">{err}</p> : ""}
+          <p className="text-gray-500 text-[14px] mb-7">
+            Fill in the fields below to create a Barnes and Noble.com account.
+            If you already have an account, please
+            {/* <Link to="/" className="underline text-xs mx-1 text-teal-800">
+              Sign In
+            </Link> */}
+            <button className="px-2 text-indigo-500 underline" onClick={handleRegister}>  sign in</button>
+          </p>
 
               <input
                 type="submit"
@@ -288,4 +166,4 @@ const Singup = ({ open, setOpen }) => {
   );
 };
 
-export default Singup;
+export default Signup;
